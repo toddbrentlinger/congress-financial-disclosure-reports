@@ -48,16 +48,46 @@ class Asset:
         self.filingStatus = kwargs['filingStatus']
         self.description = kwargs['description']
 
+    def __str__(self):
+        return f'\nTitle: {self.title}\nType Code: {self.typeCode}\nFilingStatus: {self.filingStatus}\nDescription: {self.description}\n'
+
+    def converToJSON(self):
+        return {
+            'title': self.title,
+            'typeCode': self.typeCode,
+            'filingStatus': self.filingStatus,
+            'description': self.description
+        }
+
     def typeName(self):
         return Asset.typeCodeNames[self.typeCode]
 
 class Transaction:
-    def __init__(self, **kwargs):
-        self.id = kwargs['id']
-        self.owner = kwargs['owner']
-        self.asset = kwargs['asset'] # use Asset object
-        self.type = kwargs['type']
-        self.date = kwargs['date'] # use Date object
-        self.notificationDate = kwargs['notificationDate'] # use Date object
-        self.amount = kwargs['amount']
-        self.capGainsMoreThan200 = kwargs['capGainsMoreThan200']
+    collection = []
+
+    def __init__(self, id = '', owner = '', asset = {}, type = '', date = '', notificationDate = '', amount = '', capGainsMoreThan200 = ''):
+        self.id = id
+        self.owner = owner
+        self.asset = Asset(title=asset['title'], typeCode=asset['typeCode'], filingStatus=asset['filingStatus'], description=asset['description'])
+        self.type = type
+        self.date = date # use Date object
+        self.notificationDate = notificationDate # use Date object
+        self.amount = amount
+        self.capGainsMoreThan200 = capGainsMoreThan200
+
+        Transaction.collection.append(self)
+
+    def __str__(self):
+        return f'Owner: {self.owner}\n\nAsset: {self.asset}\nType: {self.type}\nDate: {self.date}\nNotification Date: {self.notificationDate}\nAmount: {self.amount}\n'
+
+    def convertToJSON(self):
+        return {
+            'id': self.id,
+            'owner': self.owner,
+            'asset': self.asset.converToJSON(),
+            'type': self.type,
+            'date': self.date.strftime('%m/%d/%Y'),
+            'notificationDate': self.notificationDate.strftime('%m/%d/%Y'),
+            'amount': self.amount,
+            'capGainsMoreThan200': str(self.capGainsMoreThan200)
+        }

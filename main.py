@@ -2,15 +2,19 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import PyPDF2
 
-from datetime import datetime, date
+from datetime import datetime
 from zipfile import ZipFile
 from io import BytesIO
 from pdfminer import high_level
+from extract_pdf_tables import extract_pdf_tables_tabula
 from report import Report
+from reportlisting import ReportListing
+
+# Extract Text From PDF
 
 def extractTextFromPDF(filename):
     extractedText = high_level.extract_text(filename, "", [0])
-    print(extractedText)
+    # print(extractedText)
     report = Report(extractedText)
     print(report)
     return extractedText
@@ -37,42 +41,7 @@ def extractTextFromPDFOld(filename):
     print(textData)
     return textData
 
-class Member:
-    members = []
-
-    def __init__(self, **kwargs):
-        self.prefix = kwargs['prefix']
-        self.lastName = kwargs['lastName']
-        self.firstName = kwargs['firstName']
-        self.suffix = kwargs['suffix']
-
-        # Member.members.append(self)
-
-    def __str__(self):
-        return f'{self.prefix + " " if self.prefix else ""}{self.firstName} {self.lastName}{" " + self.suffix if self.suffix else ""}'
-
-class ReportListing:
-    def __init__(self, xmlData):
-        # self.prefix = xmlData[0].text
-        # self.lastName = xmlData[1].text
-        # self.firstName = xmlData[2].text
-        # self.suffix = xmlData[3].text
-        self.member = Member(prefix=xmlData[0].text, lastName=xmlData[1].text, firstName=xmlData[2].text, suffix=xmlData[3].text)
-
-        self.filingType = xmlData[4].text
-        self.stateDistrict = xmlData[5].text
-        self.year = int(xmlData[6].text)
-
-        if xmlData[7].text:
-            filingDateSplit = xmlData[7].text.split('/')
-            self.filingDate = date(int(filingDateSplit[2]), int(filingDateSplit[0]), int(filingDateSplit[1]))
-        else:
-            self.filingDate = date.today()
-        
-        self.docID = xmlData[8].text
-
-    def __str__(self):
-        return f'{self.member} - FilingDate: {self.filingDate} - ReportURL: https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/{self.docID}.pdf'
+# XML
 
 def parseXML(root):
     reportListingDict = {}
@@ -101,6 +70,8 @@ def getXMLFromURL(url):
     
 def getXMLFromFile(filename):
     return ET.parse(filename).getroot()
+
+# Reports
 
 def getReport(filename):
     xmlData = getXMLFromURL(filename) if filename.startswith('http') else getXMLFromFile(filename)
@@ -132,11 +103,18 @@ def compareReports(newReportsFilename, oldReportsFilename):
     for newReport in newReportsList:
         print(newReport)
 
+# Main
+
 def main():
     # downloadReports()
     # getReport('https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2021FD.ZIP')
-    compareReports('https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2021FD.ZIP', 'data/2021FD.xml')
-    extractTextFromPDF('20019331.pdf')
+
+    # compareReports('https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2021FD.ZIP', 'data/2021FD.xml')
+
+    extractTextFromPDF('data/20019331.pdf')
+    extractTextFromPDF('data/20019771.pdf')
+
+    # extract_pdf_tables_tabula('20019331.pdf')
 
 if __name__ == '__main__':
     main()
