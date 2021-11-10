@@ -9,19 +9,30 @@ class Report:
         self.messageFlags = []
         self.year = year
 
-        self.docID = re.search('Filing ID #(\d+)', extractedText).group(1)
-        self.name = re.search('Status:(?:\\n)+([\w. ]+)', extractedText).group(1)
-        self.stateDistrict = re.search('State\/District: ([\d\w]+)', extractedText).group(1)
+        self.docID = re.search('(?<=Filing ID #)\d+', extractedText, re.IGNORECASE).group()
+        self.name = re.search('(?<=Status:)(?:\\n)+([\w. ]+)', extractedText).group(1)
+        self.stateDistrict = re.search('(?<=State\/District:\s)[\d\w]+', extractedText).group()
 
         # Transactions
-        # infoList = re.findall('(?:\\n)+([A-Z]{2})(?:\\n)+([^\[]*)\[(\w+)\](?:\\n)* *([A-Z])(?:\\n)*([\d\/]+)\s+([\d\/]+)', extractedText)
         data = {}
-        data['ownerList'] = re.findall('(?<=(?:\\n){2})[A-Z]{2}(?=\\n){2}', extractedText) # Full match, no capture group
+
         data['assetTitleList'] = []
+        # Replace every single instance of \n (NOT \n\n) with single space. Helps with regex.
+        regExp = re.compile('(?<!(?:\\n))(?:\\n)(?!(?:\\n))')
+        extractedTextModified = regExp.sub(' ', extractedText)
+        # Find every text between \n\n and \n\n
+        matchList = re.findall('(?<=(?:\\n){2}).+?(?=(?:\\n){2})', extractedTextModified)
+        for match in matchList:
+            # If str ends with '[NN]', where N is any uppercase letter, add rest of string to asset title list
+            searchMatch = re.search('.+?(?=(?:\\n)|\s\[[A-Z]{2}\])', match)
+            if searchMatch is not None:
+                data['assetTitleList'].append(searchMatch.group())
+
+        # User non-modified extracted text. Could change in future to only use matchList
+        data['ownerList'] = re.findall('(?<=(?:\\n){2})[A-Z]{2}(?=\\n){2}', extractedText) # Full match, no capture group
         data['assetTypeCodeList'] = re.findall('(?<=\[)[A-Z]+?(?=(?=\]\\n){2}|\]\s)', extractedText) # Full match, no capture group
         data['assetDescriptionList'] = re.findall('(?<=DESCRIPTION:\s).+?(?=(?:\\n){2})', extractedText) # Full match, no capture group
-        data['assetFilingStatusList'] = re.findall('(?<=(?:f|F)(?:i|I)(?:l|L)(?:i|I)(?:n|N)(?:g|G) (?:s|S)(?:t|T)(?:a|A)(?:t|T)(?:u|U)(?:s|S): ).+?(?=(?:\\n))', extractedText) # Full match, no capture group
-        
+        data['assetFilingStatusList'] = re.findall('(?<=filing\sstatus: ).+?(?=(?:\\n))', extractedText, re.IGNORECASE) # Full match, no capture group
         data['transactionTypeList'] = re.findall('(?<=(?:\\n){2}|\] )[A-Z](?: \(partial\))?(?=(?:\\n){2})', extractedText) # Full match, no capture groups
         data['datesList'] = re.findall('(?<=(?:\\n){2})([\d\/]+)\s([\d\/]+)(?=(?:\\n){2})', extractedText) # Two capture groups
         data['amountList'] = re.findall('\$[\d,]+?\s-(?:\\n)*\s*\$[\d,]+?(?=(?:\\n){2})', extractedText) # Full match, no capture group

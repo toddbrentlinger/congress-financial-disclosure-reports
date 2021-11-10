@@ -1,5 +1,8 @@
 from datetime import datetime, date
 
+from extract_text import extractTextFromPDF
+from report import Report
+
 class Member:
     # members = []
 
@@ -24,6 +27,7 @@ class Member:
 
 class ReportListing:
     collection = []
+    jsonFile = 'data/report_listings.json'
 
     def __init__(self, xmlData):
         self.member = Member(prefix=xmlData[0].text, lastName=xmlData[1].text, firstName=xmlData[2].text, suffix=xmlData[3].text)
@@ -40,19 +44,23 @@ class ReportListing:
         
         self.docID = xmlData[8].text
 
+        print(f'Report Listing URL: {self.getURL()} finished!')
+        self.report = self.createReport()
+        # self.report = None
         ReportListing.collection.append(self)
 
     def __str__(self):
         return f'{self.member} - FilingDate: {self.filingDate} - ReportURL: {self.getURL()}'
 
-    def converToJSON(self):
+    def convertToJSON(self):
         return {
             'member': self.member.convertToJSON(),
             'filingType': self.filingType,
             'stateDistrict': self.stateDistrict,
             'year': self.year,
             'filingDate': self.filingDate.strftime('%m/%d/%Y'),
-            'docID': self.docID
+            'docID': self.docID,
+            'report': self.report.convertToJSON() if self.report else None,
         }
 
     def getURL(self):
@@ -64,3 +72,10 @@ class ReportListing:
             return f'https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{str(self.year)}/{self.docID}.pdf'
         else:
             return f'https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{str(self.year)}/{self.docID}.pdf'
+
+    def createReport(self):
+        # Check docID
+        if not self.docID.startswith('200'):
+            return None
+
+        return Report(extractTextFromPDF(self.getURL()))

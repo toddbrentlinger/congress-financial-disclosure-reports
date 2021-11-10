@@ -4,3 +4,13 @@ https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2015/10013294.pdf
 11/8/21
 
 - Add year property to Report class taken from file name. Ex. "2021FD.xml"
+
+Files To Scan:
+20019749
+20019771
+
+Files NOT To Scan:
+10043955
+10043965
+8218366
+8218416
