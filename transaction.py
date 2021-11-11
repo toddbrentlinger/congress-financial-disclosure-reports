@@ -1,3 +1,4 @@
+from datetime import date
 
 class Asset:
     typeCodeNames = {
@@ -47,16 +48,18 @@ class Asset:
         self.typeCode = kwargs['typeCode'] # use Asset.typeCodes dict to get asset name
         self.filingStatus = kwargs['filingStatus']
         self.description = kwargs['description']
+        self.subholdingOf = kwargs['subholdingOf']
 
     def __str__(self):
-        return f'\nTitle: {self.title}\nType Code: {self.typeCode}\nFilingStatus: {self.filingStatus}\nDescription: {self.description}\n'
+        return f'\nTitle: {self.title}\nType Code: {self.typeCode}\nFilingStatus: {self.filingStatus}\nDescription: {self.description}\nSubholding Of: {self.subholdingOf}'
 
     def converToJSON(self):
         return {
             'title': self.title,
             'typeCode': self.typeCode,
             'filingStatus': self.filingStatus,
-            'description': self.description
+            'description': self.description,
+            'subholdingOf': self.subholdingOf,
         }
 
     def typeName(self):
@@ -65,13 +68,17 @@ class Asset:
 class Transaction:
     collection = []
 
-    def __init__(self, id = '', owner = '', asset = {}, type = '', date = '', notificationDate = '', amount = '', capGainsMoreThan200 = ''):
+    def __init__(self, id = '', owner = '', asset = {}, type = '', filingDate = '', notificationDate = '', amount = '', capGainsMoreThan200 = ''):
         self.id = id
         self.owner = owner
-        self.asset = Asset(title=asset['title'], typeCode=asset['typeCode'], filingStatus=asset['filingStatus'], description=asset['description'])
+        self.asset = Asset(title=asset['title'], typeCode=asset['typeCode'], filingStatus=asset['filingStatus'], description=asset['description'], subholdingOf=asset['subholdingOf'])
         self.type = type
-        self.date = date # use Date object
-        self.notificationDate = notificationDate # use Date object
+        
+        dateSplit = [int(val) for val in filingDate.split('/')] # MM/DD/YY
+        self.date = date(dateSplit[2], dateSplit[0], dateSplit[1])
+        dateSplit = [int(val) for val in notificationDate.split('/')] # MM/DD/YY
+        self.notificationDate = date(dateSplit[2], dateSplit[0], dateSplit[1])
+
         self.amount = amount
         self.capGainsMoreThan200 = capGainsMoreThan200
 

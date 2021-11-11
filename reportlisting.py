@@ -29,7 +29,7 @@ class ReportListing:
     collection = []
     jsonFile = 'data/report_listings.json'
 
-    def __init__(self, xmlData):
+    def __init__(self, xmlData, bCreateReportNow = False):
         self.member = Member(prefix=xmlData[0].text, lastName=xmlData[1].text, firstName=xmlData[2].text, suffix=xmlData[3].text)
 
         self.filingType = xmlData[4].text
@@ -43,10 +43,13 @@ class ReportListing:
             self.filingDate = date.today()
         
         self.docID = xmlData[8].text
+        
+        if bCreateReportNow:
+            print(f'Start creating Report from URL: {self.getURL()}')
+            self.createReport()
+        else:
+            self.report = None
 
-        print(f'Report Listing URL: {self.getURL()} finished!')
-        self.report = self.createReport()
-        # self.report = None
         ReportListing.collection.append(self)
 
     def __str__(self):
@@ -78,4 +81,4 @@ class ReportListing:
         if not self.docID.startswith('200'):
             return None
 
-        return Report(extractTextFromPDF(self.getURL()))
+        self.report = Report(extractTextFromPDF(self.getURL()))

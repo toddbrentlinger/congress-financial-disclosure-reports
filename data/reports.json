@@ -1,0 +1,101 @@
+[
+    {
+        "docID": "20019790",
+        "name": "Hon. Richard W. Allen",
+        "stateDistrict": "gA12",
+        "year": 2021,
+        "messageFlags": [
+            "assetDescriptionList has missing values!",
+            "assetSubholdingOf has missing values!"
+        ],
+        "transactions": [
+            {
+                "id": "",
+                "owner": "SP",
+                "asset": {
+                    "title": "Freeport-McMoRan, Inc. (FCX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "date": "10/04/2021",
+                "notificationDate": "10/06/2021",
+                "amount": "$1,001 - $15,000",
+                "capGainsMoreThan200": ""
+            },
+            {
+                "id": "",
+                "owner": "SP",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "date": "10/22/2021",
+                "notificationDate": "10/26/2021",
+                "amount": "$1,001 - $15,000",
+                "capGainsMoreThan200": ""
+            }
+        ]
+    },
+    {
+        "docID": "20019743",
+        "name": "Hon. Susie Lee",
+        "stateDistrict": "NV03",
+        "year": 2021,
+        "messageFlags": [
+            "assetDescriptionList has missing values!"
+        ],
+        "transactions": [
+            {
+                "id": "",
+                "owner": "JT",
+                "asset": {
+                    "title": "Rackspace Technology, Inc. (RXT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "DSL Living Trust > Bank of New York Brokerage Account 340"
+                },
+                "type": "S",
+                "date": "10/14/2021",
+                "notificationDate": "11/01/2021",
+                "amount": "$1,001 - $15,000",
+                "capGainsMoreThan200": ""
+            }
+        ]
+    },
+    {
+        "docID": "20019747",
+        "name": "Hon. Peter Welch",
+        "stateDistrict": "VT00",
+        "year": 2021,
+        "messageFlags": [
+            "assetDescriptionList has missing values!",
+            "assetSubholdingOf has missing values!"
+        ],
+        "transactions": [
+            {
+                "id": "",
+                "owner": "SP",
+                "asset": {
+                    "title": "Exxon mobil Corporation (XOm)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "date": "09/17/2021",
+                "notificationDate": "09/17/2021",
+                "amount": "$1,001 - $15,000",
+                "capGainsMoreThan200": ""
+            }
+        ]
+    }
+]

@@ -7,6 +7,8 @@ else:
     from io import BytestIO as StringIO
 
 import requests
+import time
+
 import PyPDF2
 
 # pdfminer
@@ -30,17 +32,19 @@ def extractTextFromPDFUsingPDFMiner(filename):
         interpreter = PDFPageInterpreter(rsrcmgr, device)
         for page in PDFPage.create_pages(doc):
             interpreter.process_page(page)
-    print(output_string.getvalue())
+    # print(output_string.getvalue())
     return output_string.getvalue()
 
 def extractTextFromPDF(filename):
     if filename.startswith('http'):
-        req = requests.get(filename)
-        extractedText = high_level.extract_text(io.BytesIO(req.content), "")
+        response = requests.get(filename)
+        extractedText = high_level.extract_text(io.BytesIO(response.content), "")
+        response.close()
+        time.sleep(0.1)
     else:
         extractedText = high_level.extract_text(filename, "")
     
-    print(extractedText)
+    # print(extractedText)
     return extractedText
 
 def extractTextFromPDFURL(url):

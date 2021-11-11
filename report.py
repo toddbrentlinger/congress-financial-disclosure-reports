@@ -1,4 +1,5 @@
 import re
+import statistics
 from datetime import datetime
 from transaction import Transaction
 
@@ -28,23 +29,46 @@ class Report:
             if searchMatch is not None:
                 data['assetTitleList'].append(searchMatch.group())
 
-        # User non-modified extracted text. Could change in future to only use matchList
-        data['ownerList'] = re.findall('(?<=(?:\\n){2})[A-Z]{2}(?=\\n){2}', extractedText) # Full match, no capture group
-        data['assetTypeCodeList'] = re.findall('(?<=\[)[A-Z]+?(?=(?=\]\\n){2}|\]\s)', extractedText) # Full match, no capture group
-        data['assetDescriptionList'] = re.findall('(?<=DESCRIPTION:\s).+?(?=(?:\\n){2})', extractedText) # Full match, no capture group
+        # Use non-modified extracted text. Could change in future to only use matchList
+
+        data['ownerList'] = re.findall('(?<=(?:\\n){2})[A-Z]{2}(?=(?:\\n){2})', extractedText) # Full match, no capture group
+        # Remove any matches of 'ID'
+        data['ownerList'] = [ owner for owner in data['ownerList'] if owner != 'ID' ]
+
+        data['assetTypeCodeList'] = re.findall('(?<=\[)[a-zA-Z]+?(?=(?=\]\\n){2}|\]\s)', extractedText) # Full match, no capture group
+        # Convert to uppercase (case where letter is parsed as lower but should be upper)
+        data['assetTypeCodeList'] = [ typeCode.upper() for typeCode in data['assetTypeCodeList'] ]
+
+        # Asset should include either a description or subholding of. Have only seen reports with one or the other.
+        data['assetDescriptionList'] = re.findall('(?<=description:\s).+?(?=(?:\\n){2})', extractedText, re.IGNORECASE) # Full match, no capture group
+        data['assetSubholdingOf'] = re.findall('(?<=subholding\sof:\s).+?(?=(?:\\n){2})', extractedText, re.IGNORECASE)
+
         data['assetFilingStatusList'] = re.findall('(?<=filing\sstatus: ).+?(?=(?:\\n))', extractedText, re.IGNORECASE) # Full match, no capture group
         data['transactionTypeList'] = re.findall('(?<=(?:\\n){2}|\] )[A-Z](?: \(partial\))?(?=(?:\\n){2})', extractedText) # Full match, no capture groups
         data['datesList'] = re.findall('(?<=(?:\\n){2})([\d\/]+)\s([\d\/]+)(?=(?:\\n){2})', extractedText) # Two capture groups
         data['amountList'] = re.findall('\$[\d,]+?\s-(?:\\n)*\s*\$[\d,]+?(?=(?:\\n){2})', extractedText) # Full match, no capture group
 
         # Check for missing values that weren't captured
-        nTransactions = max([len(data[key]) for key in data])
+
+        nTransactions = statistics.mode([len(data[key]) for key in data])
+
+        # Do NOT check owner list (most often left blank)
+        # Do NOT check description or subholdingOf (could have one, both, or none)
+        keysToSkip = ['ownerList', 'assetDescriptionList', 'assetSubholdingOf']
+        
         for key, list in data.items():
             if len(list) < nTransactions:
-                # Add message flag
-                self.messageFlags.append(f'{key} has missing values!')
-                # Change list length to match nTransactions
+                if key not in keysToSkip:
+                    # Add message flag
+                    self.messageFlags.append(f'{key} has missing values!')
+                    print(f'{key} has missing values!')
+                # Change list length to match nTransactions using empty string as value
                 list.extend(['' for i in range(nTransactions - len(list))])
+            elif len(list) > nTransactions:
+                if key not in keysToSkip:
+                    # Add message flag
+                    self.messageFlags.append(f'{key} has too many values!')
+                    print(f'{key} has too many values!')
 
         self.transactions = []
         for i in range(nTransactions):
@@ -55,9 +79,10 @@ class Report:
                     'typeCode': data['assetTypeCodeList'][i].replace('\n', ' '), 
                     'filingStatus': data['assetFilingStatusList'][i].replace('\n', ' '), 
                     'description': data['assetDescriptionList'][i].replace('\n', ' '),
+                    'subholdingOf': data['assetSubholdingOf'][i].replace('\n', ' ')
                 },
                 type=data['transactionTypeList'][i].replace('\n', ' '),
-                date=data['datesList'][i][0].replace('\n', ' '),
+                filingDate=data['datesList'][i][0].replace('\n', ' '),
                 notificationDate=data['datesList'][i][1].replace('\n', ' '),
                 amount=data['amountList'][i].replace('\n', ' '),
             )
