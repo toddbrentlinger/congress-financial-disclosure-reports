@@ -3,6 +3,21 @@ import tkinter as tk
 def createWindow():
     return tk.Tk()
 
+def createCustomWindow():
+    window = createWindow()
+
+    # Top Bar
+
+    # Left Side Bar
+
+    # Main
+
+    # Right Side Bar
+
+    # Footer
+
+    window.mainloop()
+
 def main():
     window = createWindow()
 

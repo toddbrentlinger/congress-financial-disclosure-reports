@@ -2,6 +2,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 # import PyPDF2
 import json
+from json.decoder import JSONDecodeError
 
 from datetime import datetime
 from zipfile import ZipFile
@@ -55,7 +56,7 @@ def createReportListingsFromParsedXML(root):
     count = 1
     print('\nStarting to create report listings.')
     for member in root:
-        newReportListing = ReportListing(member)
+        newReportListing = ReportListing(member, 'xml')
         reportListingDict[newReportListing.docID] = newReportListing
         print(f'Report Listing Finished: {count} / {nMembers}', end='\r', flush=True)
         count += 1
@@ -114,17 +115,20 @@ def checkForNewReportListings():
 
         # Replace old XML file with new
         # TODO: Creates another request for pdf and unzips to get xml. Can save file object of XML file from zip file.
-        getParsedXMLFromURLZipFile(newReportListingsURL, True)
+        getParsedXMLFromURLZipFile(newReportListingsURL, False)
 
         # Sort new report listings by filing date (most recent at top)
         newReportListingsList.sort(key=lambda val: val.filingDate, reverse=True)
 
         # Add sorted new report listings to JSON file
-        with open('data/report_listings.json', 'r+') as outfile:
-            data = [reportListing.convertToJSON() for reportListing in newReportListingsList]
-            if outfile.read(2) != '[]':
+        data = [reportListing.convertToJSON() for reportListing in newReportListingsList]
+        with open('data/report_listings.json') as outfile:
+            try:
                 data.append(json.load(outfile))
-            json.dump(data, outfile, indent=4, ensure_ascii=False)
+            except JSONDecodeError: # Error if file is empty
+                pass
+        with open('data/report_listings.json', 'w') as outfile:
+            json.dump(data, outfile, indent=4)
 
         # Create reports from new reports list only
         for reportListing in newReportListingsList:
@@ -132,20 +136,25 @@ def checkForNewReportListings():
             reportListing.createReport()
 
         # Add reports from new report listings to JSON file
-        with open('data/reports.json', 'r+') as outfile:
-            newReportsList = [reportListing.report.convertToJSON() for reportListing in newReportListingsList if reportListing.report]
-            if outfile.read(2) != '[]':
-                newReportsList.append(json.load(outfile))
-            json.dump(newReportsList, outfile, indent=4, ensure_ascii=False)
+        data = [reportListing.report.convertToJSON() for reportListing in newReportListingsList if reportListing.report]
+        with open('data/reports.json') as outfile:
+            try:
+                data.append(json.load(outfile))
+            except JSONDecodeError: # Error if file is empty
+                pass
+        with open('data/reports.json', 'w') as outfile:
+            json.dump(data, outfile, indent=4)
 
         # Sort new report listings by filing date (most recent at bottom)
         newReportListingsList.reverse()
 
-    # Print new report listings
-    print('\nNew Financial Disclosure Reports:\n')
-    for newReport in newReportListingsList:
-        print(newReport)
-    print('\n')
+        # Print new report listings
+        print('\nNew Financial Disclosure Reports:\n')
+        for newReport in newReportListingsList:
+            print(newReport)
+        print('\n')
+    else:
+        print('\nNo New Financial Disclosure Reports\n')
 
     return newReportListingsList
 
@@ -165,11 +174,13 @@ def main():
     # print(Report(extractTextFromPDF('data/20017909.pdf')))
 
     # extractTextFromPDF('data/20019530.pdf')
-    print(Report(extractTextFromPDF('data/20019331.pdf')))
+    # print(Report(extractTextFromPDF('data/20019331.pdf')))
 
     # print(extractTextFromPDF('https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2015/10013294.pdf'))
 
-    # checkForNewReportListings()
+    ReportListing.initCollection()
+    Report.initCollection()
+    checkForNewReportListings()
 
 if __name__ == '__main__':
     main()

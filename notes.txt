@@ -1,6 +1,22 @@
 https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/10013294.pdf
 https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2015/10013294.pdf
 
+11/12/21
+
+- ReportListing.filingDate and ReportListing.docID can be sent to Report instead of saving property in ReportListing.
+filingDate is saved twice and docID fits more with Report instead of ReportListing.
+However, ReportListing can be created without creating Report and ReportListing will need the docID to create the
+Report at another time. Could the same apply for filingDate or can it be used in Report only?
+
+- Create AmountRange class (used in Transaction class to replace 'amount' property) 
+to get integer values for money to be used to compare if needed
+
+- Could create base class extended by Report and ReportListing.
+Similarities:
+    - __eq__: both compare docID and then the rest of the values
+    - docID, filingDate: both share these properties
+    - class methods: initCollection(), addToCollection()
+
 11/8/21
 
 - Add year property to Report class taken from file name. Ex. "2021FD.xml"

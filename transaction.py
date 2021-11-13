@@ -68,19 +68,17 @@ class Asset:
 class Transaction:
     collection = []
 
-    def __init__(self, id = '', owner = '', asset = {}, type = '', filingDate = '', notificationDate = '', amount = '', capGainsMoreThan200 = ''):
-        self.id = id
+    def __init__(self, owner = '', asset = {}, type = '', filingDate = '', notificationDate = '', amount = ''):
         self.owner = owner
         self.asset = Asset(title=asset['title'], typeCode=asset['typeCode'], filingStatus=asset['filingStatus'], description=asset['description'], subholdingOf=asset['subholdingOf'])
         self.type = type
         
         dateSplit = [int(val) for val in filingDate.split('/')] # MM/DD/YY
-        self.date = date(dateSplit[2], dateSplit[0], dateSplit[1])
+        self.filingDate = date(dateSplit[2], dateSplit[0], dateSplit[1])
         dateSplit = [int(val) for val in notificationDate.split('/')] # MM/DD/YY
         self.notificationDate = date(dateSplit[2], dateSplit[0], dateSplit[1])
 
         self.amount = amount
-        self.capGainsMoreThan200 = capGainsMoreThan200
 
         Transaction.collection.append(self)
 
@@ -89,12 +87,10 @@ class Transaction:
 
     def convertToJSON(self):
         return {
-            'id': self.id,
             'owner': self.owner,
             'asset': self.asset.converToJSON(),
             'type': self.type,
-            'date': self.date.strftime('%m/%d/%Y'),
+            'filingDate': self.filingDate.strftime('%m/%d/%Y'),
             'notificationDate': self.notificationDate.strftime('%m/%d/%Y'),
             'amount': self.amount,
-            'capGainsMoreThan200': str(self.capGainsMoreThan200)
         }
