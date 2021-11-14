@@ -236,5 +236,243 @@
         "filingDate": "11/09/2021",
         "docID": "20019747",
         "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Kean",
+            "firstName": "Thomas H.",
+            "suffix": "Jr"
+        },
+        "filingType": "C",
+        "stateDistrict": "NJ07",
+        "year": 2021,
+        "filingDate": "11/11/2021",
+        "docID": "10042007",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Allen",
+            "firstName": "Richard W.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA12",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "20019790",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Banks",
+            "firstName": "James E Hon",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "IN03",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "20019793",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Brown",
+            "firstName": "Jesse",
+            "suffix": null
+        },
+        "filingType": "A",
+        "stateDistrict": "MA09",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "10043888",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Lowe",
+            "firstName": "Kimberly",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "VA05",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "10044019",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Lowe",
+            "firstName": "Kimberly",
+            "suffix": null
+        },
+        "filingType": "D",
+        "stateDistrict": "VA05",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "40003274",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lowenthal",
+            "firstName": "Alan S.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "20019795",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lowenthal",
+            "firstName": "Alan S.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "20019796",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Neumann",
+            "firstName": "Cora",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MT00",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "10044004",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Rouda",
+            "firstName": "Harley E.",
+            "suffix": "Jr"
+        },
+        "filingType": "A",
+        "stateDistrict": "CA48",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "10044020",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Rouda",
+            "firstName": "Harley E.",
+            "suffix": "Jr"
+        },
+        "filingType": "C",
+        "stateDistrict": "CA48",
+        "year": 2021,
+        "filingDate": "11/10/2021",
+        "docID": "10043740",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Dr.",
+            "lastName": "Almonord",
+            "firstName": "Valbrun",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "GA03",
+        "year": 2021,
+        "filingDate": "11/09/2021",
+        "docID": "10043951",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Bradley",
+            "firstName": "Christopher",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL14",
+        "year": 2021,
+        "filingDate": "11/09/2021",
+        "docID": "10043997",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Geels",
+            "firstName": "Courtney Joele",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NC13",
+        "year": 2021,
+        "filingDate": "11/09/2021",
+        "docID": "10043969",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Hanson",
+            "firstName": "Meagan Myers",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "GA06",
+        "year": 2021,
+        "filingDate": "11/09/2021",
+        "docID": "10042795",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lee",
+            "firstName": "Susie",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NV03",
+        "year": 2021,
+        "filingDate": "11/09/2021",
+        "docID": "20019743",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Welch",
+            "firstName": "Peter",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VT00",
+        "year": 2021,
+        "filingDate": "11/09/2021",
+        "docID": "20019747",
+        "report": null
     }
 ]

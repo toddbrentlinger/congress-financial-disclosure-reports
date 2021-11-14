@@ -115,7 +115,7 @@ def checkForNewReportListings():
 
         # Replace old XML file with new
         # TODO: Creates another request for pdf and unzips to get xml. Can save file object of XML file from zip file.
-        getParsedXMLFromURLZipFile(newReportListingsURL, False)
+        getParsedXMLFromURLZipFile(newReportListingsURL, True)
 
         # Sort new report listings by filing date (most recent at top)
         newReportListingsList.sort(key=lambda val: val.filingDate, reverse=True)
@@ -124,7 +124,7 @@ def checkForNewReportListings():
         data = [reportListing.convertToJSON() for reportListing in newReportListingsList]
         with open('data/report_listings.json') as outfile:
             try:
-                data.append(json.load(outfile))
+                data.extend(json.load(outfile))
             except JSONDecodeError: # Error if file is empty
                 pass
         with open('data/report_listings.json', 'w') as outfile:
@@ -139,7 +139,7 @@ def checkForNewReportListings():
         data = [reportListing.report.convertToJSON() for reportListing in newReportListingsList if reportListing.report]
         with open('data/reports.json') as outfile:
             try:
-                data.append(json.load(outfile))
+                data.extend(json.load(outfile))
             except JSONDecodeError: # Error if file is empty
                 pass
         with open('data/reports.json', 'w') as outfile:

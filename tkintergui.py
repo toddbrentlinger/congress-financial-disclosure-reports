@@ -1,10 +1,13 @@
-import tkinter as tk
+from tkinter import *
+from tkinter import ttk
 
-def createWindow():
-    return tk.Tk()
+from main import checkForNewReportListings
+
+def handleCheckForNewReportsClick():
+    checkForNewReportListings()
 
 def createCustomWindow():
-    window = createWindow()
+    root = Tk()
 
     # Top Bar
 
@@ -16,29 +19,37 @@ def createCustomWindow():
 
     # Footer
 
-    window.mainloop()
+    root.mainloop()
 
 def main():
-    window = createWindow()
+    root = Tk()
+    root.title('U.S Congress Financial Disclosure Reports')
 
-    # TODO: Keep all widgets in list and pack them all in single line: widget.pack() for widget in widgetList
+    # Main Frame needed to use newer "themed" widgets
+    mainframe = ttk.Frame(root, padding='5')
+    mainframe.grid(column=0, row=0, columnspan=2, sticky=(N, W, E, S))
+    root.columnconfigure(0, weight=1)
+    root.rowconfigure(0, weight=1)
 
-    greeting = tk.Label(text="U.S. Congress Financial Disclosure Reports")
-    greeting.pack()
+    # Top Bar
+    topBarFrame = ttk.Frame(mainframe, borderwidth=2, relief='groove')
+    topBarFrame.grid(column=0, row=0, columnspan=2, sticky=(N, W, E, S))
+    mainframe.rowconfigure(0, minsize=20, weight=1)
 
-    button = tk.Button(
-        text='Check New Report Listings',
-        width=25,
-        height=5,
-        bg='blue',
-        fg='white',
-    )
-    button.pack()
+    # Side Bar
+    sideBarFrame = ttk.Frame(mainframe, borderwidth=2, relief='groove')
+    sideBarFrame.grid(column=0, row=1, sticky=(N, W, E, S))
+    mainframe.rowconfigure(1, minsize=100, weight=5)
+    mainframe.columnconfigure(0, minsize=50, weight=5)
 
-    entry = tk.Entry(width=50)
-    entry.pack()
+    checkNewReportsBtn = ttk.Button(sideBarFrame, text='Check For New Reports', command=handleCheckForNewReportsClick)
+
+    # Display Data
+    displayFrame = ttk.Frame(mainframe, borderwidth=2, relief='groove')
+    displayFrame.grid(column=1, row=1, sticky=(N, W, E, S))
+    mainframe.columnconfigure(1, minsize=100, weight=10)
     
-    window.mainloop()
+    root.mainloop()
 
 if __name__ == '__main__':
     main()

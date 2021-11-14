@@ -150,5 +150,157 @@
                 "amount": "$1,001 - $15,000"
             }
         ]
+    },
+    {
+        "docID": "20019790",
+        "name": "Hon. Richard W. Allen",
+        "stateDistrict": "gA12",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Freeport-McMoRan, Inc. (FCX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "10/04/2021",
+                "notificationDate": "10/06/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "10/22/2021",
+                "notificationDate": "10/26/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019793",
+        "name": "Hon. James E Hon Banks",
+        "stateDistrict": "IN03",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Roblox Corporation Class A (RBlX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Schwab IRA"
+                },
+                "type": "S",
+                "filingDate": "10/26/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019795",
+        "name": "Hon. Alan S. Lowenthal",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Hyatt hotels Corp",
+                    "typeCode": "CS",
+                    "filingStatus": "New",
+                    "description": "Maturity date is 10/01/2023 and interest rate is 1.30%.",
+                    "subholdingOf": "Neuberger Berman - Malumed Lowenthal Rev Trust"
+                },
+                "type": "P",
+                "filingDate": "11/03/2021",
+                "notificationDate": "11/10/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019796",
+        "name": "Hon. Alan S. Lowenthal",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "VMWare Inc Note",
+                    "typeCode": "CS",
+                    "filingStatus": "New",
+                    "description": "Interest rate is 1.40%, maturity date is 08/15/2026",
+                    "subholdingOf": "Neuberger Berman - Traditional IRA"
+                },
+                "type": "P",
+                "filingDate": "09/10/2021",
+                "notificationDate": "11/08/2021",
+                "amount": "$15,001 - $50,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019743",
+        "name": "Hon. Susie Lee",
+        "stateDistrict": "NV03",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Rackspace Technology, Inc. (RXT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "DSL Living Trust > Bank of New York Brokerage Account 340"
+                },
+                "type": "S",
+                "filingDate": "10/14/2021",
+                "notificationDate": "11/01/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019747",
+        "name": "Hon. Peter Welch",
+        "stateDistrict": "VT00",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Exxon mobil Corporation (XOm)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "09/17/2021",
+                "notificationDate": "09/17/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
     }
 ]
