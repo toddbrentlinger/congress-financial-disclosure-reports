@@ -1,5 +1,1109 @@
 [
     {
+        "docID": "20019828",
+        "name": "Hon. John Curtis",
+        "stateDistrict": "uT03",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Activision blizzard, Inc (ATVI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "S",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Caterpillar, Inc. (CAT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "P",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "global Payments Inc. (gPN)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "S",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Honeywell International Inc. (HON)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "S (partial)",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "KlA Corporation (KlAC)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "P",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "lockheed Martin Corporation (lMT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "S",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "ulta beauty, Inc. (ulTA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "P",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Visa Inc. (V)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Northwestern Mutual - Joint"
+                },
+                "type": "P",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019761",
+        "name": "Hon. Josh Gottheimer",
+        "stateDistrict": "NJ05",
+        "year": 2021,
+        "messageFlags": [
+            "amountList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Advanced Micro devices, Inc. (AMd)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "AdR Stock",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/05/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Affirm Holdings, Inc. - Class A (AFRM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Formerly known as Facebook Inc. CL-A",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/12/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Alibaba Group Holding Limited American depositary Shares each representing eight Ordinary share (bAbA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Formerly known as Facebook Inc. CL-A",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Allianz SE AdR (ALIZY)",
+                    "typeCode": "OT",
+                    "filingStatus": "New",
+                    "description": "Formerly known as Facebook Inc. CL-A",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Apple Inc. (AAPL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/29/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "biogen Inc. (bIIb)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "bioMarin Pharmaceutical Inc. (bMRN)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "blackstone Inc. (bX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Covetrus, Inc. (CVET)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/12/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "depositary Shares (bHP)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "dassault Systemes, S.A. American depositary Shares (dASTY)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/05/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "deere & Company (dE)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/15/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "deere & Company (dE)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/22/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Emergent biosolutions, Inc. (EbS)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Endava plc American depositary Shares (dAVA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/01/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Estee Lauder Companies, Inc. (EL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/26/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Etsy, Inc. (ETSY)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/19/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "FedEx Corporation (FdX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S",
+                "filingDate": "10/19/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "FedEx Corporation (FdX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Intuit Inc. (INTU)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/19/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Lam Research Corporation (LRCX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/29/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Mastercard Incorporated (MA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/29/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "McKesson Corporation (MCK)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/28/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Medpace Holdings, Inc. (MEdP)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/26/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "MercadoLibre, Inc. (MELI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Meta Platforms, Inc. - Class A (Fb)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Meta Platforms, Inc. - Class A (Fb)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/26/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Meta Platforms, Inc. - Class A (Fb)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/27/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Microsoft Corporation (MSFT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/28/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Microsoft Corporation (MSFT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/19/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Netflix, Inc. (NFLX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/25/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Nintendo Co Ltd AdR (NTdOY)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "NVIdIA Corporation (NVdA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/29/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "NVIdIA Corporation (NVdA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/05/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Paycor HCM, Inc. (PYCR)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/13/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Paylocity Holding Corporation (PCTY)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/01/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/27/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/22/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/21/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/20/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "SPX Corporation (SPXC)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S",
+                "filingDate": "10/12/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "QUALCOMM Incorporated (QCOM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/05/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "QUALCOMM Incorporated (QCOM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Tesla, Inc. (TSLA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/19/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Texas Instruments Incorporated (TXN)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/29/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Trane Technologies plc (TT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Uber Technologies, Inc. (UbER)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "P",
+                "filingDate": "10/18/2021",
+                "notificationDate": "11/04/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Uber Technologies, Inc. (UbER)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Morgan Stanley - Select UMA Account # 1"
+                },
+                "type": "S (partial)",
+                "filingDate": "10/28/2021",
+                "notificationDate": "11/04/2021",
+                "amount": ""
+            }
+        ]
+    },
+    {
+        "docID": "20019734",
+        "name": "Hon. James R. Langevin",
+        "stateDistrict": "RI02",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "generac Holdlings Inc. (gNRC)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Call Options; Strike Price $400; Expires 11/19/21",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "P",
+                "filingDate": "10/01/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "generac Holdlings Inc. (gNRC)",
+                    "typeCode": "OP",
+                    "filingStatus": "New",
+                    "description": "Call Options; Strike Price $400; Expires 11/19/21",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "P",
+                "filingDate": "10/01/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "generac Holdlings Inc. (gNRC)",
+                    "typeCode": "OP",
+                    "filingStatus": "New",
+                    "description": "Call Options; Strike Price $400; Expires 11/19/21",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "S",
+                "filingDate": "10/15/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "generac Holdlings Inc. (gNRC)",
+                    "typeCode": "OP",
+                    "filingStatus": "New",
+                    "description": "Formerly known as Facebook Inc CL A - Call Options; Strike Price $360; Expires 10/29/21",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "S",
+                "filingDate": "10/15/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "generac Holdlings Inc. (gNRC)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Call Options; Strike Price $84; Expires 11/12/21",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$100,001 - $250,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Meta Platforms, Inc. - Class A (FB)",
+                    "typeCode": "OP",
+                    "filingStatus": "New",
+                    "description": "Call Options; Strike Price $84; Expires 11/12/21",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "S",
+                "filingDate": "10/19/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Zillow group, Inc. - Class C Capital Stock (Z)",
+                    "typeCode": "OP",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "P",
+                "filingDate": "10/04/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Zillow group, Inc. - Class C Capital Stock (Z)",
+                    "typeCode": "OP",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Brokerage Account"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "11/02/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019829",
+        "name": "Hon. Alan S. Lowenthal",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Deckers Outdoor Corporation (DECK)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Neuberger Berman - Traditional IRA"
+                },
+                "type": "P",
+                "filingDate": "11/04/2021",
+                "notificationDate": "11/12/2021",
+                "amount": "$15,001 - $50,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019814",
+        "name": "Hon. Bob Gibbs",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Exxon Mobil Corporation (XOM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "P",
+                "filingDate": "11/09/2021",
+                "notificationDate": "11/09/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "NeoGenomics, Inc. (NEO)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "S",
+                "filingDate": "11/09/2021",
+                "notificationDate": "11/09/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019787",
+        "name": "Hon. Scott H. Peters",
+        "stateDistrict": "CA52",
+        "year": 2021,
+        "messageFlags": [
+            "assetTitleList has missing values!",
+            "amountList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "10/14/2021",
+                "notificationDate": "10/31/2021",
+                "amount": "$250,001 - $500,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "10/14/2021",
+                "notificationDate": "10/31/2021",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "10/13/2021",
+                "notificationDate": "10/31/2021",
+                "amount": "$250,001 - $500,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "10/14/2021",
+                "notificationDate": "10/31/2021",
+                "amount": "$500,001 - $1,000,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "10/14/2021",
+                "notificationDate": "10/31/2021",
+                "amount": ""
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "10/14/2021",
+                "notificationDate": "10/31/2021",
+                "amount": ""
+            }
+        ]
+    },
+    {
+        "docID": "20019808",
+        "name": "Hon. Kim Dr Schrier",
+        "stateDistrict": "WA08",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Apple Inc. (AAPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Gowing Family Trust Secondary Account"
+                },
+                "type": "P",
+                "filingDate": "07/27/2021",
+                "notificationDate": "07/27/2021",
+                "amount": "$500,001 - $1,000,000"
+            }
+        ]
+    },
+    {
         "docID": "20019790",
         "name": "Hon. Richard W. Allen",
         "stateDistrict": "gA12",
@@ -32,273 +1136,6 @@
                 "type": "S",
                 "filingDate": "10/22/2021",
                 "notificationDate": "10/26/2021",
-                "amount": "$1,001 - $15,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019793",
-        "name": "Hon. James E Hon Banks",
-        "stateDistrict": "IN03",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "",
-                "asset": {
-                    "title": "Roblox Corporation Class A (RBlX)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": "Schwab IRA"
-                },
-                "type": "S",
-                "filingDate": "10/26/2021",
-                "notificationDate": "10/29/2021",
-                "amount": "$15,001 - $50,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019795",
-        "name": "Hon. Alan S. Lowenthal",
-        "stateDistrict": "CA47",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "JT",
-                "asset": {
-                    "title": "Hyatt hotels Corp",
-                    "typeCode": "CS",
-                    "filingStatus": "New",
-                    "description": "Maturity date is 10/01/2023 and interest rate is 1.30%.",
-                    "subholdingOf": "Neuberger Berman - Malumed Lowenthal Rev Trust"
-                },
-                "type": "P",
-                "filingDate": "11/03/2021",
-                "notificationDate": "11/10/2021",
-                "amount": "$1,001 - $15,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019796",
-        "name": "Hon. Alan S. Lowenthal",
-        "stateDistrict": "CA47",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "SP",
-                "asset": {
-                    "title": "VMWare Inc Note",
-                    "typeCode": "CS",
-                    "filingStatus": "New",
-                    "description": "Interest rate is 1.40%, maturity date is 08/15/2026",
-                    "subholdingOf": "Neuberger Berman - Traditional IRA"
-                },
-                "type": "P",
-                "filingDate": "09/10/2021",
-                "notificationDate": "11/08/2021",
-                "amount": "$15,001 - $50,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019743",
-        "name": "Hon. Susie Lee",
-        "stateDistrict": "NV03",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "JT",
-                "asset": {
-                    "title": "Rackspace Technology, Inc. (RXT)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": "DSL Living Trust > Bank of New York Brokerage Account 340"
-                },
-                "type": "S",
-                "filingDate": "10/14/2021",
-                "notificationDate": "11/01/2021",
-                "amount": "$1,001 - $15,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019747",
-        "name": "Hon. Peter Welch",
-        "stateDistrict": "VT00",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "SP",
-                "asset": {
-                    "title": "Exxon mobil Corporation (XOm)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": ""
-                },
-                "type": "S",
-                "filingDate": "09/17/2021",
-                "notificationDate": "09/17/2021",
-                "amount": "$1,001 - $15,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019790",
-        "name": "Hon. Richard W. Allen",
-        "stateDistrict": "gA12",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "SP",
-                "asset": {
-                    "title": "Freeport-McMoRan, Inc. (FCX)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": ""
-                },
-                "type": "S",
-                "filingDate": "10/04/2021",
-                "notificationDate": "10/06/2021",
-                "amount": "$1,001 - $15,000"
-            },
-            {
-                "owner": "SP",
-                "asset": {
-                    "title": "PayPal Holdings, Inc. (PYPl)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": ""
-                },
-                "type": "S",
-                "filingDate": "10/22/2021",
-                "notificationDate": "10/26/2021",
-                "amount": "$1,001 - $15,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019793",
-        "name": "Hon. James E Hon Banks",
-        "stateDistrict": "IN03",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "",
-                "asset": {
-                    "title": "Roblox Corporation Class A (RBlX)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": "Schwab IRA"
-                },
-                "type": "S",
-                "filingDate": "10/26/2021",
-                "notificationDate": "10/29/2021",
-                "amount": "$15,001 - $50,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019795",
-        "name": "Hon. Alan S. Lowenthal",
-        "stateDistrict": "CA47",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "JT",
-                "asset": {
-                    "title": "Hyatt hotels Corp",
-                    "typeCode": "CS",
-                    "filingStatus": "New",
-                    "description": "Maturity date is 10/01/2023 and interest rate is 1.30%.",
-                    "subholdingOf": "Neuberger Berman - Malumed Lowenthal Rev Trust"
-                },
-                "type": "P",
-                "filingDate": "11/03/2021",
-                "notificationDate": "11/10/2021",
-                "amount": "$1,001 - $15,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019796",
-        "name": "Hon. Alan S. Lowenthal",
-        "stateDistrict": "CA47",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "SP",
-                "asset": {
-                    "title": "VMWare Inc Note",
-                    "typeCode": "CS",
-                    "filingStatus": "New",
-                    "description": "Interest rate is 1.40%, maturity date is 08/15/2026",
-                    "subholdingOf": "Neuberger Berman - Traditional IRA"
-                },
-                "type": "P",
-                "filingDate": "09/10/2021",
-                "notificationDate": "11/08/2021",
-                "amount": "$15,001 - $50,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019743",
-        "name": "Hon. Susie Lee",
-        "stateDistrict": "NV03",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "JT",
-                "asset": {
-                    "title": "Rackspace Technology, Inc. (RXT)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": "DSL Living Trust > Bank of New York Brokerage Account 340"
-                },
-                "type": "S",
-                "filingDate": "10/14/2021",
-                "notificationDate": "11/01/2021",
-                "amount": "$1,001 - $15,000"
-            }
-        ]
-    },
-    {
-        "docID": "20019747",
-        "name": "Hon. Peter Welch",
-        "stateDistrict": "VT00",
-        "year": 2021,
-        "messageFlags": [],
-        "transactions": [
-            {
-                "owner": "SP",
-                "asset": {
-                    "title": "Exxon mobil Corporation (XOm)",
-                    "typeCode": "ST",
-                    "filingStatus": "New",
-                    "description": "",
-                    "subholdingOf": ""
-                },
-                "type": "S",
-                "filingDate": "09/17/2021",
-                "notificationDate": "09/17/2021",
                 "amount": "$1,001 - $15,000"
             }
         ]

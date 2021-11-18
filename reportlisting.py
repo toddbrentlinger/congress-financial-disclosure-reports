@@ -66,7 +66,7 @@ class ReportListing:
         # Check document ID first
         if self.docID != other.docID:
             return False
-        # Check if other properties are equal
+        # TODO: Check if other properties are equal
         return True
 
     def __ne__(self, other):
