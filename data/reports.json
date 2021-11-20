@@ -1,5 +1,619 @@
 [
     {
+        "docID": "20019848",
+        "name": "Hon. Lloyd Doggett",
+        "stateDistrict": "TX35",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Coca-Cola Company (KO)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Reinvest Shares",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "10/04/2021",
+                "notificationDate": "11/03/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019780",
+        "name": "Hon. Mark Dr Green",
+        "stateDistrict": "TN07",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "CrossAmerica Partners lP Common units representing limited partner interests (CAPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "AXA Retirement Account"
+                },
+                "type": "S",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/09/2021",
+                "amount": "$250,001 - $500,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Enable Midstream Partners, lP Common units representing limited partner interests (ENbl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "AXA Retirement Account"
+                },
+                "type": "S",
+                "filingDate": "11/01/2021",
+                "notificationDate": "11/09/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "MPlX lP Common units Representing limited Partner Interests (MPlX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "AXA Retirement Account"
+                },
+                "type": "P",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/09/2021",
+                "amount": "$500,001 - $1,000,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "uSA Compression Partners, lP Common units Representing limited Partner Interests (uSAC)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "AXA Retirement Account"
+                },
+                "type": "S",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/09/2021",
+                "amount": "$250,001 - $500,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019852",
+        "name": "Hon. Alan S. Lowenthal",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Service Corporation International (SCI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Neuberger Berman - Traditional IRA"
+                },
+                "type": "S (partial)",
+                "filingDate": "11/08/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Service Corporation International (SCI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Neuberger Berman - Traditional IRA"
+                },
+                "type": "S (partial)",
+                "filingDate": "11/09/2021",
+                "notificationDate": "11/16/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Service Corporation International (SCI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Neuberger Berman - Traditional IRA"
+                },
+                "type": "S (partial)",
+                "filingDate": "11/10/2021",
+                "notificationDate": "11/17/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Service Corporation International (SCI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Neuberger Berman - Traditional IRA"
+                },
+                "type": "S (partial)",
+                "filingDate": "11/10/2021",
+                "notificationDate": "11/17/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019850",
+        "name": "Hon. Kim Dr Schrier",
+        "stateDistrict": "WA08",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "becton, Dickinson and Company (bDX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Inherited in October, 2021. ",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "bristol-Myers Squibb Company (bMY)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "P",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "brookfield Renewable Partners l.P. (bEP)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$250,001 - $500,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Abbott laboratories (AbT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Alphabet Inc. - Class A (gOOgl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Apple Inc. (AAPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Cisco Systems, Inc. (CSCO)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Cleveland-Cliffs Inc. (ClF)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Costco Wholesale Corporation (COST)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "CVS Health Corporation (CVS)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Donaldson Company, Inc. (DCI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Honeywell International Inc. (HON)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "International business Machines Corporation (IbM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "East West bancorp, Inc. (EWbC)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Eaton Corporation, PlC Ordinary Shares (ETN)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Jacobs Engineering group Inc. (J)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "lumen Technologies, Inc. (luMN)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "JP Morgan Chase & Co. (JPM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "lowe's Companies, Inc. (lOW)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Mesabi Trust (MSb)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Vmware, Inc. Common stock, Class A (VMW)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Inherited IRA"
+                },
+                "type": "S",
+                "filingDate": "10/28/2021",
+                "notificationDate": "10/29/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019847",
+        "name": "Hon. Thomas Suozzi",
+        "stateDistrict": "NY03",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "CVS Health Corporation (CVS)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "S",
+                "filingDate": "11/10/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Dow Inc. (DOW)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "P",
+                "filingDate": "11/04/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "global X FinTech ETF (FINX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "P",
+                "filingDate": "11/04/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "P",
+                "filingDate": "11/04/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Schlumberger N.V. (Slb)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "P",
+                "filingDate": "11/04/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "The bank of New York Mellon Corporation (bK)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "S",
+                "filingDate": "11/10/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "TJX Companies, Inc. (TJX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "P",
+                "filingDate": "11/04/2021",
+                "notificationDate": "11/15/2021",
+                "amount": "$15,001 - $50,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019844",
+        "name": "Hon. Michael C. Burgess",
+        "stateDistrict": "TX26",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Stryker Corporation (SYK)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "the terms of the call are a strike price of $270 and an expiration date 11/19/21.",
+                    "subholdingOf": ""
+                },
+                "type": "S (partial)",
+                "filingDate": "10/14/2021",
+                "notificationDate": "10/15/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Stryker Corporation (SYK)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "the terms of the call are a strike price of $280 and an expiration date 12/17/21.",
+                    "subholdingOf": ""
+                },
+                "type": "S (partial)",
+                "filingDate": "10/19/2021",
+                "notificationDate": "10/19/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
         "docID": "20019828",
         "name": "Hon. John Curtis",
         "stateDistrict": "uT03",
