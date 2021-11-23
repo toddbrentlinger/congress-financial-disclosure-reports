@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 
 from verticalscrolledframe import VerticalScrolledFrame
-from displaylist import ReportListingsFrame
+from displaylist import DisplayListBaseFrame
 
 # Import From Parent Directory
 import sys
@@ -31,7 +31,7 @@ class CongressFinancialDisclosureReportsApp(ttk.Frame):
         root.columnconfigure(0, weight=1)
         root.rowconfigure(0, weight=1)
 
-        ReportListingsFrame(root).grid()
+        DisplayListBaseFrame(root).grid()
 
 def main():
     ReportListing.initCollection()

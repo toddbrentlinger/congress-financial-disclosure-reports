@@ -27,7 +27,7 @@ class LabelValueFrame(ttk.Frame):
 
 class DisplayListBaseFrame(ttk.Frame):
 
-    def __init__(self, parent, minsize, *args, **kwargs):
+    def __init__(self, parent, minsize = 50, *args, **kwargs):
         ttk.Frame.__init__(self, parent, *args, **kwargs)
 
         self.minsize = minsize
@@ -55,7 +55,7 @@ class DisplayListBaseFrame(ttk.Frame):
 
         # Display Buttons/Tabs - Active Tab is highlighted
         self.topBarBtns = {}
-        self.topBarBtns['reportListings'] = ttk.Button(topBarFrame, text='Report Listings', style='TopBarBtnActive.TButton', command=self.handleDisplayReportListingsBtnClick)
+        self.topBarBtns['reportListings'] = ttk.Button(topBarFrame, text='Report Listings', style='TopBarBtn.TButton', command=self.handleDisplayReportListingsBtnClick)
         self.topBarBtns['reports'] = ttk.Button(topBarFrame, text='Reports', style='TopBarBtn.TButton', command=self.handleDisplayReportsBtnClick)
         self.topBarBtns['transactions'] = ttk.Button(topBarFrame, text='Transactions', style='TopBarBtn.TButton', command=self.handleDisplayTransactionsBtnClick)
         for index, btn in enumerate(self.topBarBtns.values()):
@@ -85,7 +85,7 @@ class DisplayListBaseFrame(ttk.Frame):
         self.contentMainFrame = ttk.Frame(self.contentFrame, borderwidth=2, relief='groove')
         self.contentMainFrame.grid(column=0, row=1, sticky=(N, W, E, S))
         self.contentMainFrame.columnconfigure(0, weight=1)
-        self.handleContentMainResize()
+        # self.handleContentMainResize()
 
         self.contentMainFrame.bind('<Configure>', self.handleContentMainResize)
         
@@ -108,6 +108,22 @@ class DisplayListBaseFrame(ttk.Frame):
         self.footerFrame = ttk.Frame(parent, borderwidth=2, relief='groove')
         self.footerFrame.grid(column=0, row=2, columnspan=3, sticky=(N, W, E, S))
 
+        self.selectedTab = 'reportListings'
+        self.update()
+
+    def update(self):
+        self.makeTopBarBtnActive(self.selectedTab)
+        if self.selectedTab == 'reports':
+            self.minsize = 50
+            self.contentFrame.rowconfigure(1, minsize=5*self.minsize, weight=1)
+            self.updateReports()
+        elif self.selectedTab == 'transactions':
+            print('Open Transactions tab!')
+        else:
+            self.minsize = 50
+            self.contentFrame.rowconfigure(1, minsize=5*self.minsize, weight=1)
+            self.updateReportListings()
+
     def handleCheckForNewReportsClick(self):
         checkForNewReportListings()
         # self.displayReportListings()
@@ -115,23 +131,22 @@ class DisplayListBaseFrame(ttk.Frame):
     def makeTopBarBtnActive(self, btnKey):
         for key, btn in self.topBarBtns.items():
             btn.config(style='TopBarBtnActive.TButton' if key == btnKey else 'TopBarBtn.TButton')
-            # if key == btnKey:
-            #     # Add active class to btn
-            #     btn.config(style='TopBarBtnActive.TButton')
-            #     continue
-            # # Add base class to other btns
-            # btn.config(style='TopBarBtn.TButton')
 
     def handleDisplayReportListingsBtnClick(self):
-        self.makeTopBarBtnActive('reportListings')
+        if self.selectedTab != 'reportListings':
+            self.selectedTab = 'reportListings'
+            self.update()
 
     def handleDisplayReportsBtnClick(self):
-        self.makeTopBarBtnActive('reports')
+        if self.selectedTab != 'reports':
+            self.selectedTab = 'reports'
+            self.update()
 
     def handleDisplayTransactionsBtnClick(self):
         self.makeTopBarBtnActive('transactions')
 
     def handleContentMainResize(self, event = None):
+        # print('Window resized')
         nRowsNew = math.floor(self.contentMainFrame.winfo_height() / self.minsize)
         # Return is nRows has not changed
         if nRowsNew == self.nRows:
@@ -148,6 +163,72 @@ class DisplayListBaseFrame(ttk.Frame):
         self.contentMainFrame.columnconfigure(0, weight=1)
         for i in range(self.nRows):
             self.contentMainFrame.rowconfigure(i, minsize=self.minsize, weight=1)
+
+        self.update()
+
+    def updateReportListings(self):
+        # Add filter options to left side bar frame
+
+        # Add sort options to content top bar frame
+
+        # Add report listings to content frame
+        for index, reportListing in enumerate(ReportListing.collection):
+            if index >= self.nRows:
+                break
+
+            reportListingFrame = ttk.Frame(self.contentMainFrame, borderwidth=2, relief='groove')
+            reportListingFrame.grid(column=0, row=index, sticky=(N, W, E, S))
+            for i in range(2):
+                reportListingFrame.columnconfigure(i, weight=1)
+            for i in range(3):
+                reportListingFrame.rowconfigure(i, weight=1)
+
+            # Member name
+            LabelValueFrame(reportListingFrame, 
+                f'{index+1}. Member: ', reportListing.member
+            ).grid(column=0, row=0, sticky=(N, W, S))
+
+            # Doc ID
+            LabelValueFrame(reportListingFrame, 
+                'Doc ID: ', reportListing.docID
+            ).grid(column=1, row=0, sticky=(N, E, S))
+
+            # Filing Date
+            LabelValueFrame(reportListingFrame, 
+                'Filing Date: ', reportListing.filingDate.strftime('%m/%d/%Y')
+            ).grid(column=0, row=1, sticky=(N, W, S))
+
+    def updateReports(self):
+        # Add filter options to left side bar frame
+
+        # Add sort options to content top bar frame
+
+        # Add report listings to content frame
+        for index, report in enumerate(Report.collection):
+            if index >= self.nRows:
+                break
+
+            reportListingFrame = ttk.Frame(self.contentMainFrame, borderwidth=2, relief='groove')
+            reportListingFrame.grid(column=0, row=index, sticky=(N, W, E, S))
+            for i in range(2):
+                reportListingFrame.columnconfigure(i, weight=1)
+            for i in range(3):
+                reportListingFrame.rowconfigure(i, weight=1)
+
+            # Member name
+            LabelValueFrame(reportListingFrame, 
+                f'{index+1}. Name: ', report.name
+            ).grid(column=0, row=0, sticky=(N, W, S))
+
+            # Doc ID
+            LabelValueFrame(reportListingFrame, 
+                'Doc ID: ', report.docID
+            ).grid(column=1, row=0, sticky=(N, E, S))
+
+            # Number of Transactions
+            LabelValueFrame(reportListingFrame, 
+                'Transactions: ', str(len(report.transactions))
+            ).grid(column=0, row=1, sticky=(N, W, S))
 
 class ReportListingsFrame(DisplayListBaseFrame):
     def __init__(self, parent, *args, **kwargs):
@@ -172,16 +253,17 @@ class ReportListingsFrame(DisplayListBaseFrame):
             for i in range(3):
                 reportListingFrame.rowconfigure(i, weight=1)
 
-            # Add Member name
+            # Member name
             LabelValueFrame(reportListingFrame, 
                 f'{index+1}. Member: ', reportListing.member
             ).grid(column=0, row=0, sticky=(N, W, S))
 
-            # Add Doc ID
+            # Doc ID
             LabelValueFrame(reportListingFrame, 
                 'Doc ID: ', reportListing.docID
             ).grid(column=1, row=0, sticky=(N, E, S))
 
+            # Filing Date
             LabelValueFrame(reportListingFrame, 
                 'Filing Date: ', reportListing.filingDate.strftime('%m/%d/%Y')
             ).grid(column=0, row=1, sticky=(N, W, S))
@@ -193,3 +275,50 @@ class ReportListingsFrame(DisplayListBaseFrame):
     def handleContentMainResize(self, event = None):
         if DisplayListBaseFrame.handleContentMainResize(self, event) != 0:
             self.updateReportListings()
+
+class ReportListingsFrame(ttk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        ttk.Frame.__init__(self, parent, *args, **kwargs)
+
+        self.updateReportListings()
+
+    def updateReportListings(self):
+        # Add filter options to left side bar frame
+
+        # Add sort options to content top bar frame
+
+        # Add report listings to content frame
+        for index, reportListing in enumerate(ReportListing.collection):
+            if index >= self.nRows:
+                break
+
+            reportListingFrame = ttk.Frame(self.contentMainFrame, borderwidth=2, relief='groove')
+            reportListingFrame.grid(column=0, row=index, sticky=(N, W, E, S))
+            for i in range(2):
+                reportListingFrame.columnconfigure(i, weight=1)
+            for i in range(3):
+                reportListingFrame.rowconfigure(i, weight=1)
+
+            # Member name
+            LabelValueFrame(reportListingFrame, 
+                f'{index+1}. Member: ', reportListing.member
+            ).grid(column=0, row=0, sticky=(N, W, S))
+
+            # Doc ID
+            LabelValueFrame(reportListingFrame, 
+                'Doc ID: ', reportListing.docID
+            ).grid(column=1, row=0, sticky=(N, E, S))
+
+            # Filing Date
+            LabelValueFrame(reportListingFrame, 
+                'Filing Date: ', reportListing.filingDate.strftime('%m/%d/%Y')
+            ).grid(column=0, row=1, sticky=(N, W, S))
+
+    def handleCheckForNewReportsClick(self):
+        DisplayListBaseFrame.handleCheckForNewReportsClick(self)
+        self.updateReportListings()
+
+    def handleContentMainResize(self, event = None):
+        if DisplayListBaseFrame.handleContentMainResize(self, event) != 0:
+            self.updateReportListings()
+        
