@@ -1,5 +1,972 @@
 [
     {
+        "docID": "20019895",
+        "name": "Member",
+        "stateDistrict": "VA08",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "BLF FedFund TDDXX",
+                    "typeCode": "CS",
+                    "filingStatus": "New",
+                    "description": "sweep purchase Blackrock Liq FDS FedFund",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "P",
+                "filingDate": "11/09/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "BLF FedFund TDDXX",
+                    "typeCode": "CS",
+                    "filingStatus": "New",
+                    "description": "sweep sale Blackrock Liq FDS FedFund",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "S",
+                "filingDate": "11/02/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "BLF FedFund TDDXX",
+                    "typeCode": "CS",
+                    "filingStatus": "New",
+                    "description": "sweep purchase Blackrock Liq FDS FedFund",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "P",
+                "filingDate": "11/01/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "BLF FedFund TDDXX",
+                    "typeCode": "CS",
+                    "filingStatus": "New",
+                    "description": "sweep purchase Blackrock Liq FDS FedFund",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "P",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Daifuku Co Ltd Ordinary Shares (DAIUF)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "sale 40 units Daifuku Co Ltd; Capital gains $1,435",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "S",
+                "filingDate": "11/01/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "NVIDIA Corporation (NVDA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "sale 20 units NVIDIA Corp; capital gain $5,226",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "S",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Square, Inc. Class A (SQ)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "sale 15 units Square Inc Class A; capital gain $2,055",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "S",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Square, Inc. Class A (SQ)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "sale 10 units Square Inc Class A; capital gain $1,571",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "S",
+                "filingDate": "11/01/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Teladoc Health, Inc. (TDOC)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "sale 35 units Teladoc Health Inc common; capital gain $900",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "S",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "TJX Companies, Inc. (TJX)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "15 units TJX Companies Inc.",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "P",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Visa Inc. (V)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "sale of 5 units Visa Inc Class A; $156 capital gain",
+                    "subholdingOf": "Stocks, Bonds, & Mutual Funds"
+                },
+                "type": "S",
+                "filingDate": "11/01/2021",
+                "notificationDate": "11/28/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019922",
+        "name": "Hon. Suzan K. DelBene",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "New York ST Dorm Auth Sales Tax Rev 5.00% Due 03/15/25",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$250,001 - $500,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Round Rock Tex Indpt SCH Dist 5.00% Due 08/01/25",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Colorado Health Fac 5.00% Hosp HlTH Due 08/01/49",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Maryland ST Dept TR 5.00% Comb Tax Due 10/01/26",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019805",
+        "name": "Hon. Christopher L. Jacobs",
+        "stateDistrict": "NY27",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Central Puget Wa 5.000% 11/01/31",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CL TRUST > LDJ FAM INV LLC > GWK"
+                },
+                "type": "P",
+                "filingDate": "10/20/2021",
+                "notificationDate": "11/10/2021",
+                "amount": "$15,001 - $50,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019941",
+        "name": "Hon. Ed Perlmutter",
+        "stateDistrict": "CO07",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Ford Motor Company (F)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "11/02/2021",
+                "notificationDate": "12/02/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019930",
+        "name": "Member",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "American Express Company (AXP)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "12/01/2021",
+                "notificationDate": "12/01/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019915",
+        "name": "Hon. Austin Scott",
+        "stateDistrict": "gA08",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Katapult Holdings, Inc. - Warrant (KPlTW)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "11/30/2021",
+                "notificationDate": "11/30/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019917",
+        "name": "Hon. Thomas Suozzi",
+        "stateDistrict": "NY03",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!",
+            "amountList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Advanced Micro Devices, Inc. (AMD)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Advisor Discretion Account under control of asset manager. ",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Apple Inc. (AAPL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Microsoft Corporation (MSFT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Morgan Stanley (MS)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$100,001 - $250,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "NextEra Energy, Inc. (NEE)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Merrill Lynch- Advisor Discretion Account"
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Sylvamo Corporation (SLVM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Merrill Lynch- Advisor Discretion Account"
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "The Carlyle group Inc. (Cg)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "National Securities- Advisor Discretion Account"
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": ""
+            }
+        ]
+    },
+    {
+        "docID": "20019902",
+        "name": "Hon. Patrick Fallon",
+        "stateDistrict": "TX04",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$50,001 - $100,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Southwest Airlines Company (luV)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$100,001 - $250,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Twitter, Inc. (TWTR)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Twitter, Inc. (TWTR)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Verizon Communications Inc. (VZ)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019893",
+        "name": "Hon. Bob Gibbs",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "AbbVie Inc. (ABBV)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "P",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/26/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "AT&T Inc. (T)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "P",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/26/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Merck & Company, Inc. Common Stock (MRK)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "P",
+                "filingDate": "11/26/2021",
+                "notificationDate": "11/26/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "QuantumScape Corporation Class A (QS)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "S",
+                "filingDate": "11/24/2021",
+                "notificationDate": "11/24/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "STMicroelectronics N.V. (STM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "S",
+                "filingDate": "11/24/2021",
+                "notificationDate": "11/24/2021",
+                "amount": "$15,001 - $50,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019896",
+        "name": "Hon. Alan S. Lowenthal",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "LegalZoom.com, Inc. (LZ)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "Neuberger Berman - Traditional IRA"
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019878",
+        "name": "Member",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "ON Semiconductor Corporation (ON)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "11/24/2021",
+                "notificationDate": "11/24/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019879",
+        "name": "Member",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "NXP Semiconductors N.V. (NXPI)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "11/24/2021",
+                "notificationDate": "11/24/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019880",
+        "name": "Member",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Texas Instruments Incorporated (TXN)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "11/24/2021",
+                "notificationDate": "11/24/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019877",
+        "name": "Hon. Austin Scott",
+        "stateDistrict": "gA08",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Katapult Holdings, Inc. - Warrant (KPlTW)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "11/24/2021",
+                "notificationDate": "11/24/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019873",
+        "name": "Member",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Dominion Energy, Inc. (D)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "11/23/2021",
+                "notificationDate": "11/23/2021",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019869",
+        "name": "Hon. Earl Blumenauer",
+        "stateDistrict": "OR03",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "SP",
+                "asset": {
+                    "title": "Northwest Natural Holding Company (NWN)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Dividend reinvestment. Part of my spouse's retirement portfolio.",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019872",
+        "name": "Member",
+        "stateDistrict": "GA14",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "lockheed Martin Corporation (lMT)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "PayPal Holdings, Inc. (PYPl)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Sylvamo Corporation (SlVM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Walt Disney Company (DIS)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019863",
+        "name": "Hon. Bob Gibbs",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Marvell Technology, Inc. (MRVL)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$15,001 - $50,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "QuantumScape Corporation Class A (QS)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "STMicroelectronics N.V. (STM)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": "CHARLES SWABB ACCOUNT"
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019816",
+        "name": "Hon. Suzan K. DelBene",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "messageFlags": [
+            "datesList has missing values!"
+        ],
+        "transactions": [
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Illinois HSg Dev Auth Rev BDS Ser. 1.70% Due 4/1/2031",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "P",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "JT",
+                "asset": {
+                    "title": "Kentucky Economic Dev Fin Auth Rev Rev 2.70% Due 5/1/2039",
+                    "typeCode": "GS",
+                    "filingStatus": "New",
+                    "description": "",
+                    "subholdingOf": ""
+                },
+                "type": "S",
+                "filingDate": "",
+                "notificationDate": "",
+                "amount": "$250,001 - $500,000"
+            }
+        ]
+    },
+    {
+        "docID": "20019858",
+        "name": "Hon. John Rutherford",
+        "stateDistrict": "Fl04",
+        "year": 2021,
+        "messageFlags": [],
+        "transactions": [
+            {
+                "owner": "",
+                "asset": {
+                    "title": "bristol-Myers Squibb Company (bMY)",
+                    "typeCode": "ST",
+                    "filingStatus": "Amended",
+                    "description": "Separately Managed Account - IRA ",
+                    "subholdingOf": "National Financial Services/Fidelity - Premiere Select IRA Domestic"
+                },
+                "type": "P",
+                "filingDate": "07/21/2020",
+                "notificationDate": "07/21/2020",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "Comcast Corporation - Class A (CMCSA)",
+                    "typeCode": "ST",
+                    "filingStatus": "New",
+                    "description": "Separately Managed Account - IRA ",
+                    "subholdingOf": "National Financial Services/Fidelity - Premiere Select IRA Domestic"
+                },
+                "type": "S",
+                "filingDate": "02/23/2021",
+                "notificationDate": "02/23/2021",
+                "amount": "$1,001 - $15,000"
+            },
+            {
+                "owner": "",
+                "asset": {
+                    "title": "VAlE S.A. American Depositary Shares Each Representing one common share (VAlE)",
+                    "typeCode": "ST",
+                    "filingStatus": "Amended",
+                    "description": "",
+                    "subholdingOf": "National Financial Services/Fidelity - Premiere Select IRA Int'l"
+                },
+                "type": "P",
+                "filingDate": "07/22/2020",
+                "notificationDate": "07/22/2020",
+                "amount": "$1,001 - $15,000"
+            }
+        ]
+    },
+    {
         "docID": "20019848",
         "name": "Hon. Lloyd Doggett",
         "stateDistrict": "TX35",

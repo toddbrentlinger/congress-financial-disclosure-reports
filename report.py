@@ -162,7 +162,7 @@ class Report:
         matchList = re.findall('(?<=(?:\\n){2}).+?(?=(?:\\n){2})', extractedTextModified)
         for match in matchList:
             # If str ends with '[NN]', where N is any uppercase letter, add rest of string to asset title list
-            searchMatch = re.search('.+?(?=(?:\\n)|\s\[[A-Z]{2}\])', match)
+            searchMatch = re.search('.+?(?=(?:\\n)|\s\[[a-zA-Z]{2}\])', match)
             if searchMatch is not None:
                 data['assetTitleList'].append(searchMatch.group())
 
@@ -182,7 +182,7 @@ class Report:
 
         data['assetFilingStatusList'] = re.findall('(?<=filing\sstatus: ).+?(?=(?:\\n))', extractedText, re.IGNORECASE) # Full match, no capture group
         data['transactionTypeList'] = re.findall('(?<=(?:\\n){2}|\] )[A-Z](?: \(partial\))?(?=(?:\\n){2})', extractedText) # Full match, no capture groups
-        data['datesList'] = re.findall('(?<=(?:\\n){2})([\d\/]+)\s([\d\/]+)(?=(?:\\n){2})', extractedText) # Two capture groups
+        data['datesList'] = re.findall('(?<=(?:\\n){2})([\d\/]+)\s*(?:\\n)*([\d\/]+)(?=(?:\\n){2})', extractedText) # Two capture groups
         data['amountList'] = re.findall('\$[\d,]+?\s-(?:\\n)*\s*\$[\d,]+?(?=(?:\\n){2})', extractedText) # Full match, no capture group
 
         # Check for missing values that weren't captured
@@ -192,13 +192,14 @@ class Report:
         # Do NOT check owner list (most often left blank)
         # Do NOT check description or subholdingOf (could have one, both, or none)
         keysToSkip = ['ownerList', 'assetDescriptionList', 'assetSubholdingOf']
-        
+        keysWithMissingValues = []
         for key, list in data.items():
             if len(list) < nTransactions:
                 if key not in keysToSkip:
                     # Add message flag
                     self.messageFlags.append(f'{key} has missing values!')
                     print(f'{key} has missing values!')
+                    keysWithMissingValues.append(key)
                 # Change list length to match nTransactions using empty string as value
                 list.extend(['' for i in range(nTransactions - len(list))])
             elif len(list) > nTransactions:
@@ -206,6 +207,7 @@ class Report:
                     # Add message flag
                     self.messageFlags.append(f'{key} has too many values!')
                     print(f'{key} has too many values!')
+                    keysWithMissingValues.append(key)
 
         self.transactions = []
         for i in range(nTransactions):
@@ -219,8 +221,8 @@ class Report:
                     'subholdingOf': data['assetSubholdingOf'][i].replace('\n', ' ')
                 },
                 type=data['transactionTypeList'][i].replace('\n', ' '),
-                filingDate=data['datesList'][i][0].replace('\n', ' '),
-                notificationDate=data['datesList'][i][1].replace('\n', ' '),
+                filingDate=data['datesList'][i][0].replace('\n', ' ') if 'datesList' not in keysWithMissingValues else '',
+                notificationDate=data['datesList'][i][1].replace('\n', ' ') if 'datesList' not in keysWithMissingValues else '',
                 amount=data['amountList'][i].replace('\n', ' '),
             )
             self.transactions.append(newTransaction)

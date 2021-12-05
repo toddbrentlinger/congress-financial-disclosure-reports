@@ -73,10 +73,17 @@ class Transaction:
         self.asset = Asset(title=asset['title'], typeCode=asset['typeCode'], filingStatus=asset['filingStatus'], description=asset['description'], subholdingOf=asset['subholdingOf'])
         self.type = type
         
-        dateSplit = [int(val) for val in filingDate.split('/')] # MM/DD/YY
-        self.filingDate = date(dateSplit[2], dateSplit[0], dateSplit[1])
-        dateSplit = [int(val) for val in notificationDate.split('/')] # MM/DD/YY
-        self.notificationDate = date(dateSplit[2], dateSplit[0], dateSplit[1])
+        if (filingDate):
+            dateSplit = [int(val) for val in filingDate.split('/')] # MM/DD/YY
+            self.filingDate = date(dateSplit[2], dateSplit[0], dateSplit[1])
+        else:
+            self.filingDate = None
+
+        if (notificationDate):
+            dateSplit = [int(val) for val in notificationDate.split('/')] # MM/DD/YY
+            self.notificationDate = date(dateSplit[2], dateSplit[0], dateSplit[1])
+        else:
+            self.notificationDate = None
 
         self.amount = amount
 
@@ -90,7 +97,7 @@ class Transaction:
             'owner': self.owner,
             'asset': self.asset.converToJSON(),
             'type': self.type,
-            'filingDate': self.filingDate.strftime('%m/%d/%Y'),
-            'notificationDate': self.notificationDate.strftime('%m/%d/%Y'),
+            'filingDate': self.filingDate.strftime('%m/%d/%Y') if self.filingDate else '',
+            'notificationDate': self.notificationDate.strftime('%m/%d/%Y') if self.notificationDate else '',
             'amount': self.amount,
         }

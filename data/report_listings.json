@@ -2,6 +2,3870 @@
     {
         "member": {
             "prefix": null,
+            "lastName": "Harvey-Hall",
+            "firstName": "Phyllis",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL02",
+        "year": 2021,
+        "filingDate": "12/03/2021",
+        "docID": "10044149",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Beyer",
+            "firstName": "Donald Sternoff Honorable",
+            "suffix": "Jr"
+        },
+        "filingType": "P",
+        "stateDistrict": "VA08",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019895",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019922",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Jacobs",
+            "firstName": "Christopher L.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY27",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019805",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Perlmutter",
+            "firstName": "Ed",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO07",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019941",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Harshbarger",
+            "firstName": "Diana",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218478",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Rebekah",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218473",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019930",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019915",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Sellers",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MS04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "10043819",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Suozzi",
+            "firstName": "Thomas",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY03",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019917",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015165",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Begich",
+            "firstName": "Nicholas",
+            "suffix": "III"
+        },
+        "filingType": "X",
+        "stateDistrict": "AK00",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015158",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Bognet",
+            "firstName": "Jim",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015160",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Cozzens",
+            "firstName": "Jeff",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NH02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218464",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Fallon",
+            "firstName": "Patrick",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "20019902",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Guyett",
+            "firstName": "Matthew M.",
+            "suffix": null
+        },
+        "filingType": "W",
+        "stateDistrict": "PA15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "7824",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "A",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044134",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044097",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Healey",
+            "firstName": "Robert",
+            "suffix": "Jr."
+        },
+        "filingType": "X",
+        "stateDistrict": "NJ03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015155",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Ivey",
+            "firstName": "Glenn",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015163",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Christopher Michael",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "TX37",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015164",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Kermit",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218466",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Kustoff",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218477",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Metzendorf",
+            "firstName": "Adam",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AZ06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044049",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Normoyle",
+            "firstName": "Angela H.",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015159",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Paletta",
+            "firstName": "Jason",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218462",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Salas",
+            "firstName": "Rudy",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA21",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015156",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smilowitz",
+            "firstName": "Benjamin",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218470",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smith",
+            "firstName": "Bryan",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "ID02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218467",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Staible",
+            "firstName": "Tricia",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Vasquez",
+            "firstName": "Gabriel",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NM02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218468",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Villegas",
+            "firstName": "Gilbert",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218469",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Winn",
+            "firstName": "Kathleen",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "AZ02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218472",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Samuels",
+            "firstName": "E. Benjamin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO02",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10042154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Zinke",
+            "firstName": "Ryan",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MT00",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10044118",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Denotter",
+            "firstName": "Matthew",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MI11",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "10043767",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019893",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lowenthal",
+            "firstName": "Alan S.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019896",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Easton",
+            "firstName": "Kevin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OR05",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044120",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Singletary",
+            "firstName": "La'Ron Desmond",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY25",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044089",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10044117",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Henson",
+            "firstName": "Audrey",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL13",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10043626",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Casper",
+            "firstName": "Brandon 8013368524",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "UT03",
+        "year": 2021,
+        "filingDate": "11/25/2021",
+        "docID": "10044116",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mathis",
+            "firstName": "Elizabeth",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "IA01",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044042",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019878",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019879",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019880",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Reece",
+            "firstName": "Michael",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044115",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019877",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Wimbish",
+            "firstName": "Calvin B.",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL10",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044103",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Gordon",
+            "firstName": "Jacqueline",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY02",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10044024",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "20019873",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Miller",
+            "firstName": "Max",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OH16",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10040954",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Blumenauer",
+            "firstName": "Earl",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OR03",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019869",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Greene",
+            "firstName": "Marjorie Taylor",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA14",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019872",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Dr.",
+            "lastName": "Lorinser",
+            "firstName": "Bob James",
+            "suffix": "Jr."
+        },
+        "filingType": "C",
+        "stateDistrict": "MI01",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044101",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mapp",
+            "firstName": "Chris",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX27",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044105",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McCaul",
+            "firstName": "Michael T.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX10",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "8218460",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Roberts",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL05",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044058",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Rollins",
+            "firstName": "Will",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA42",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044022",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/21/2021",
+        "docID": "20019863",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019816",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Fermo",
+            "firstName": "Paul",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "PA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "10044087",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Rutherford",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "FL04",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019858",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lamborn",
+            "firstName": "Doug",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218442",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Omar",
+            "firstName": "Ilhan",
+            "suffix": null
+        },
+        "filingType": "G",
+        "stateDistrict": "MN05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218450",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Hollingsworth",
+            "firstName": "Trey",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "IN09",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218441",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "O'Hara",
+            "firstName": "Joseph",
+            "suffix": null
+        },
+        "filingType": "D",
+        "stateDistrict": "GA02",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218455",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Harvey-Hall",
+            "firstName": "Phyllis",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL02",
+        "year": 2021,
+        "filingDate": "12/03/2021",
+        "docID": "10044149",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Beyer",
+            "firstName": "Donald Sternoff Honorable",
+            "suffix": "Jr"
+        },
+        "filingType": "P",
+        "stateDistrict": "VA08",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019895",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019922",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Jacobs",
+            "firstName": "Christopher L.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY27",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019805",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Perlmutter",
+            "firstName": "Ed",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO07",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019941",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Harshbarger",
+            "firstName": "Diana",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218478",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Rebekah",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218473",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019930",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019915",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Sellers",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MS04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "10043819",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Suozzi",
+            "firstName": "Thomas",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY03",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019917",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015165",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Begich",
+            "firstName": "Nicholas",
+            "suffix": "III"
+        },
+        "filingType": "X",
+        "stateDistrict": "AK00",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015158",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Bognet",
+            "firstName": "Jim",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015160",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Cozzens",
+            "firstName": "Jeff",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NH02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218464",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Fallon",
+            "firstName": "Patrick",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "20019902",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Guyett",
+            "firstName": "Matthew M.",
+            "suffix": null
+        },
+        "filingType": "W",
+        "stateDistrict": "PA15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "7824",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "A",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044134",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044097",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Healey",
+            "firstName": "Robert",
+            "suffix": "Jr."
+        },
+        "filingType": "X",
+        "stateDistrict": "NJ03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015155",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Ivey",
+            "firstName": "Glenn",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015163",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Christopher Michael",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "TX37",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015164",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Kermit",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218466",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Kustoff",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218477",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Metzendorf",
+            "firstName": "Adam",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AZ06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044049",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Normoyle",
+            "firstName": "Angela H.",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015159",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Paletta",
+            "firstName": "Jason",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218462",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Salas",
+            "firstName": "Rudy",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA21",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015156",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smilowitz",
+            "firstName": "Benjamin",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218470",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smith",
+            "firstName": "Bryan",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "ID02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218467",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Staible",
+            "firstName": "Tricia",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Vasquez",
+            "firstName": "Gabriel",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NM02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218468",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Villegas",
+            "firstName": "Gilbert",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218469",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Winn",
+            "firstName": "Kathleen",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "AZ02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218472",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Samuels",
+            "firstName": "E. Benjamin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO02",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10042154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Zinke",
+            "firstName": "Ryan",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MT00",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10044118",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Denotter",
+            "firstName": "Matthew",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MI11",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "10043767",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019893",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lowenthal",
+            "firstName": "Alan S.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019896",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Easton",
+            "firstName": "Kevin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OR05",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044120",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Singletary",
+            "firstName": "La'Ron Desmond",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY25",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044089",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10044117",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Henson",
+            "firstName": "Audrey",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL13",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10043626",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Casper",
+            "firstName": "Brandon 8013368524",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "UT03",
+        "year": 2021,
+        "filingDate": "11/25/2021",
+        "docID": "10044116",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mathis",
+            "firstName": "Elizabeth",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "IA01",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044042",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019878",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019879",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019880",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Reece",
+            "firstName": "Michael",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044115",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019877",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Wimbish",
+            "firstName": "Calvin B.",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL10",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044103",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Gordon",
+            "firstName": "Jacqueline",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY02",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10044024",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "20019873",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Miller",
+            "firstName": "Max",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OH16",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10040954",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Blumenauer",
+            "firstName": "Earl",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OR03",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019869",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Greene",
+            "firstName": "Marjorie Taylor",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA14",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019872",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Dr.",
+            "lastName": "Lorinser",
+            "firstName": "Bob James",
+            "suffix": "Jr."
+        },
+        "filingType": "C",
+        "stateDistrict": "MI01",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044101",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mapp",
+            "firstName": "Chris",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX27",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044105",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McCaul",
+            "firstName": "Michael T.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX10",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "8218460",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Roberts",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL05",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044058",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Rollins",
+            "firstName": "Will",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA42",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044022",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/21/2021",
+        "docID": "20019863",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019816",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Fermo",
+            "firstName": "Paul",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "PA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "10044087",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Rutherford",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "FL04",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019858",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lamborn",
+            "firstName": "Doug",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218442",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Omar",
+            "firstName": "Ilhan",
+            "suffix": null
+        },
+        "filingType": "G",
+        "stateDistrict": "MN05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218450",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Hollingsworth",
+            "firstName": "Trey",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "IN09",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218441",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "O'Hara",
+            "firstName": "Joseph",
+            "suffix": null
+        },
+        "filingType": "D",
+        "stateDistrict": "GA02",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218455",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Harvey-Hall",
+            "firstName": "Phyllis",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL02",
+        "year": 2021,
+        "filingDate": "12/03/2021",
+        "docID": "10044149",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Beyer",
+            "firstName": "Donald Sternoff Honorable",
+            "suffix": "Jr"
+        },
+        "filingType": "P",
+        "stateDistrict": "VA08",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019895",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019922",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Jacobs",
+            "firstName": "Christopher L.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY27",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019805",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Perlmutter",
+            "firstName": "Ed",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO07",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019941",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Harshbarger",
+            "firstName": "Diana",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218478",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Rebekah",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218473",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019930",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019915",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Sellers",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MS04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "10043819",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Suozzi",
+            "firstName": "Thomas",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY03",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019917",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015165",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Begich",
+            "firstName": "Nicholas",
+            "suffix": "III"
+        },
+        "filingType": "X",
+        "stateDistrict": "AK00",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015158",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Bognet",
+            "firstName": "Jim",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015160",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Cozzens",
+            "firstName": "Jeff",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NH02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218464",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Fallon",
+            "firstName": "Patrick",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "20019902",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Guyett",
+            "firstName": "Matthew M.",
+            "suffix": null
+        },
+        "filingType": "W",
+        "stateDistrict": "PA15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "7824",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "A",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044134",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044097",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Healey",
+            "firstName": "Robert",
+            "suffix": "Jr."
+        },
+        "filingType": "X",
+        "stateDistrict": "NJ03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015155",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Ivey",
+            "firstName": "Glenn",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015163",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Christopher Michael",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "TX37",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015164",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Kermit",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218466",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Kustoff",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218477",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Metzendorf",
+            "firstName": "Adam",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AZ06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044049",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Normoyle",
+            "firstName": "Angela H.",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015159",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Paletta",
+            "firstName": "Jason",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218462",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Salas",
+            "firstName": "Rudy",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA21",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015156",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smilowitz",
+            "firstName": "Benjamin",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218470",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smith",
+            "firstName": "Bryan",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "ID02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218467",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Staible",
+            "firstName": "Tricia",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Vasquez",
+            "firstName": "Gabriel",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NM02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218468",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Villegas",
+            "firstName": "Gilbert",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218469",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Winn",
+            "firstName": "Kathleen",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "AZ02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218472",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Samuels",
+            "firstName": "E. Benjamin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO02",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10042154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Zinke",
+            "firstName": "Ryan",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MT00",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10044118",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Denotter",
+            "firstName": "Matthew",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MI11",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "10043767",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019893",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lowenthal",
+            "firstName": "Alan S.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019896",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Easton",
+            "firstName": "Kevin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OR05",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044120",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Singletary",
+            "firstName": "La'Ron Desmond",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY25",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044089",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10044117",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Henson",
+            "firstName": "Audrey",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL13",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10043626",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Casper",
+            "firstName": "Brandon 8013368524",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "UT03",
+        "year": 2021,
+        "filingDate": "11/25/2021",
+        "docID": "10044116",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mathis",
+            "firstName": "Elizabeth",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "IA01",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044042",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019878",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019879",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019880",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Reece",
+            "firstName": "Michael",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044115",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019877",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Wimbish",
+            "firstName": "Calvin B.",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL10",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044103",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Gordon",
+            "firstName": "Jacqueline",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY02",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10044024",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "20019873",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Miller",
+            "firstName": "Max",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OH16",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10040954",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Blumenauer",
+            "firstName": "Earl",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OR03",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019869",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Greene",
+            "firstName": "Marjorie Taylor",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA14",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019872",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Dr.",
+            "lastName": "Lorinser",
+            "firstName": "Bob James",
+            "suffix": "Jr."
+        },
+        "filingType": "C",
+        "stateDistrict": "MI01",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044101",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mapp",
+            "firstName": "Chris",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX27",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044105",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McCaul",
+            "firstName": "Michael T.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX10",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "8218460",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Roberts",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL05",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044058",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Rollins",
+            "firstName": "Will",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA42",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044022",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/21/2021",
+        "docID": "20019863",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019816",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Fermo",
+            "firstName": "Paul",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "PA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "10044087",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Rutherford",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "FL04",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019858",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lamborn",
+            "firstName": "Doug",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218442",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Omar",
+            "firstName": "Ilhan",
+            "suffix": null
+        },
+        "filingType": "G",
+        "stateDistrict": "MN05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218450",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Hollingsworth",
+            "firstName": "Trey",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "IN09",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218441",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "O'Hara",
+            "firstName": "Joseph",
+            "suffix": null
+        },
+        "filingType": "D",
+        "stateDistrict": "GA02",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218455",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Harvey-Hall",
+            "firstName": "Phyllis",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL02",
+        "year": 2021,
+        "filingDate": "12/03/2021",
+        "docID": "10044149",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Beyer",
+            "firstName": "Donald Sternoff Honorable",
+            "suffix": "Jr"
+        },
+        "filingType": "P",
+        "stateDistrict": "VA08",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019895",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019922",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Jacobs",
+            "firstName": "Christopher L.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY27",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019805",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Perlmutter",
+            "firstName": "Ed",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO07",
+        "year": 2021,
+        "filingDate": "12/02/2021",
+        "docID": "20019941",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Harshbarger",
+            "firstName": "Diana",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218478",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Rebekah",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL01",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "8218473",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019930",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019915",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Sellers",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MS04",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "10043819",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Suozzi",
+            "firstName": "Thomas",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "NY03",
+        "year": 2021,
+        "filingDate": "12/01/2021",
+        "docID": "20019917",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015165",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Begich",
+            "firstName": "Nicholas",
+            "suffix": "III"
+        },
+        "filingType": "X",
+        "stateDistrict": "AK00",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015158",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Bognet",
+            "firstName": "Jim",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015160",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Cozzens",
+            "firstName": "Jeff",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NH02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218464",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Fallon",
+            "firstName": "Patrick",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "20019902",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Guyett",
+            "firstName": "Matthew M.",
+            "suffix": null
+        },
+        "filingType": "W",
+        "stateDistrict": "PA15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "7824",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "A",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044134",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Haddad",
+            "firstName": "Roberto Adrian",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX15",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044097",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Healey",
+            "firstName": "Robert",
+            "suffix": "Jr."
+        },
+        "filingType": "X",
+        "stateDistrict": "NJ03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015155",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Ivey",
+            "firstName": "Glenn",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015163",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Christopher Michael",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "TX37",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015164",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Jones",
+            "firstName": "Kermit",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA04",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218466",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Kustoff",
+            "firstName": "David",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TN08",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218477",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Metzendorf",
+            "firstName": "Adam",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AZ06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "10044049",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Normoyle",
+            "firstName": "Angela H.",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015159",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Paletta",
+            "firstName": "Jason",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218462",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Salas",
+            "firstName": "Rudy",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "CA21",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015156",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smilowitz",
+            "firstName": "Benjamin",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "MD06",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218470",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Smith",
+            "firstName": "Bryan",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "ID02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218467",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Staible",
+            "firstName": "Tricia",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "PA17",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "30015154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Vasquez",
+            "firstName": "Gabriel",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "NM02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218468",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Villegas",
+            "firstName": "Gilbert",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "IL03",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218469",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Winn",
+            "firstName": "Kathleen",
+            "suffix": null
+        },
+        "filingType": "X",
+        "stateDistrict": "AZ02",
+        "year": 2021,
+        "filingDate": "11/30/2021",
+        "docID": "8218472",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Samuels",
+            "firstName": "E. Benjamin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO02",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10042154",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Zinke",
+            "firstName": "Ryan",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MT00",
+        "year": 2021,
+        "filingDate": "11/29/2021",
+        "docID": "10044118",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Denotter",
+            "firstName": "Matthew",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MI11",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "10043767",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019893",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lowenthal",
+            "firstName": "Alan S.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CA47",
+        "year": 2021,
+        "filingDate": "11/28/2021",
+        "docID": "20019896",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Easton",
+            "firstName": "Kevin",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OR05",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044120",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Singletary",
+            "firstName": "La'Ron Desmond",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY25",
+        "year": 2021,
+        "filingDate": "11/27/2021",
+        "docID": "10044089",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Alford",
+            "firstName": "Mark",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "MO04",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10044117",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Henson",
+            "firstName": "Audrey",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL13",
+        "year": 2021,
+        "filingDate": "11/26/2021",
+        "docID": "10043626",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Casper",
+            "firstName": "Brandon 8013368524",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "UT03",
+        "year": 2021,
+        "filingDate": "11/25/2021",
+        "docID": "10044116",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mathis",
+            "firstName": "Elizabeth",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "IA01",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044042",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019878",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019879",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019880",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Reece",
+            "firstName": "Michael",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044115",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Scott",
+            "firstName": "Austin",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA08",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "20019877",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Mr.",
+            "lastName": "Wimbish",
+            "firstName": "Calvin B.",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "FL10",
+        "year": 2021,
+        "filingDate": "11/24/2021",
+        "docID": "10044103",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Gordon",
+            "firstName": "Jacqueline",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "NY02",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10044024",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McEachin",
+            "firstName": "Aston Donald",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "VA04",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "20019873",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Miller",
+            "firstName": "Max",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "OH16",
+        "year": 2021,
+        "filingDate": "11/23/2021",
+        "docID": "10040954",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Blumenauer",
+            "firstName": "Earl",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OR03",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019869",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Greene",
+            "firstName": "Marjorie Taylor",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "GA14",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "20019872",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Dr.",
+            "lastName": "Lorinser",
+            "firstName": "Bob James",
+            "suffix": "Jr."
+        },
+        "filingType": "C",
+        "stateDistrict": "MI01",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044101",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Mapp",
+            "firstName": "Chris",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "TX27",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044105",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "McCaul",
+            "firstName": "Michael T.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "TX10",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "8218460",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Roberts",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "AL05",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044058",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Rollins",
+            "firstName": "Will",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "CA42",
+        "year": 2021,
+        "filingDate": "11/22/2021",
+        "docID": "10044022",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Gibbs",
+            "firstName": "Bob",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "OH07",
+        "year": 2021,
+        "filingDate": "11/21/2021",
+        "docID": "20019863",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "DelBene",
+            "firstName": "Suzan K.",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "WA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019816",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "Fermo",
+            "firstName": "Paul",
+            "suffix": null
+        },
+        "filingType": "C",
+        "stateDistrict": "PA01",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "10044087",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Rutherford",
+            "firstName": "John",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "FL04",
+        "year": 2021,
+        "filingDate": "11/19/2021",
+        "docID": "20019858",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Lamborn",
+            "firstName": "Doug",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "CO05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218442",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Omar",
+            "firstName": "Ilhan",
+            "suffix": null
+        },
+        "filingType": "G",
+        "stateDistrict": "MN05",
+        "year": 2021,
+        "filingDate": "11/18/2021",
+        "docID": "8218450",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": "Hon.",
+            "lastName": "Hollingsworth",
+            "firstName": "Trey",
+            "suffix": null
+        },
+        "filingType": "P",
+        "stateDistrict": "IN09",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218441",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
+            "lastName": "O'Hara",
+            "firstName": "Joseph",
+            "suffix": null
+        },
+        "filingType": "D",
+        "stateDistrict": "GA02",
+        "year": 2021,
+        "filingDate": "11/16/2021",
+        "docID": "8218455",
+        "report": null
+    },
+    {
+        "member": {
+            "prefix": null,
             "lastName": "Collins",
             "firstName": "Shawn",
             "suffix": null

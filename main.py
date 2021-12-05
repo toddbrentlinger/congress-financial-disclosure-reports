@@ -177,6 +177,7 @@ def main():
     # print(Report(extractTextFromPDF('data/20019331.pdf')))
 
     # print(extractTextFromPDF('https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2015/10013294.pdf'))
+    # print(extractTextFromPDF('https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019922.pdf'))
 
     ReportListing.initCollection()
     Report.initCollection()
