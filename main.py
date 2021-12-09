@@ -2,9 +2,10 @@ import urllib.request
 import xml.etree.ElementTree as ET
 # import PyPDF2
 import json
+import time
 from json.decoder import JSONDecodeError
 
-from datetime import datetime
+from datetime import datetime, date, timedelta
 from zipfile import ZipFile
 from io import BytesIO
 # from pdfminer import high_level
@@ -14,6 +15,7 @@ from os.path import exists
 from extract_text import extractTextFromPDF, extractTextFromPDFUsingPDFMiner
 from report import Report
 from reportlisting import ReportListing
+from twiliosms.main import sendTextMessage
 
 """Returns file object of zip file from url."""
 def getZipFileFromURL(url):
@@ -181,7 +183,70 @@ def main():
 
     ReportListing.initCollection()
     Report.initCollection()
-    checkForNewReportListings()
+    # checkForNewReportListings()
+
+    count = 0
+    while True or count < 5:
+        newReportListings = checkForNewReportListings()
+
+        # Text any stock transactions from newReportListings
+        # textMessageList = [] # Each element is within Twilio character limit for text messaging (1900)
+        # textMessage = ""
+        stockTransactions = []
+        for reportListing in newReportListings:
+            if not reportListing.report:
+                continue
+
+            for transaction in reportListing.report.transactions:
+                if transaction.asset.typeCode == 'ST':
+                    # stockTransactions.append(transaction)
+                    stockTransactions.append(
+                        (reportListing.member, transaction),
+                    )
+
+            # if stockTransactions:
+            #     textMessage += f"\n{reportListing.member}\n"
+            #     currDate = date.today()
+            #     for stockTransaction in stockTransactions:
+            #         if stockTransaction.filingDate != currDate:
+            #             currDate = stockTransaction.filingDate
+            #             textMessage += f'\n{currDate.strftime("%m/%d/%Y")}\n'
+            #         textMessage += f'\n{stockTransaction.asset.title} [{stockTransaction.type}]\n{stockTransaction.amount}\n'
+
+        # if textMessage:
+        #     # Send text message using Twilio
+        #     #sendTextMessage(textMessage)
+        #     print(f'Text Message ({len(textMessage)} chars): \n', textMessage)
+
+        if stockTransactions:
+            # Sort stock transactions by date (newest to oldest)
+            stockTransactions.sort(key=lambda transaction: transaction[1].filingDate)
+            stockTransactions.reverse()
+
+            # Remove stock transactions older 30 days
+            dateLimit = date.today() - timedelta(days=30)
+            stockTransactions = filter(lambda transaction: transaction[1].filingDate > dateLimit, stockTransactions)
+
+            # Create array of strings with each index holding all stock transactions for one date
+            transactionStrList = []
+            tempDate = None
+            tempStr = ''
+            for stockTransaction in stockTransactions:
+                if stockTransaction[1].filingDate != tempDate:
+                    # Add tempStr to transactionStrList and reset it's value to empty string
+                    if tempStr:
+                        transactionStrList.append(tempStr)
+                        tempStr = ''
+                    tempDate = stockTransaction[1].filingDate
+                    tempStr += f'\n{tempDate.strftime("%m/%d/%Y")}\n'
+                tempStr += f'\n{stockTransaction[1].asset.title} [{stockTransaction[1].type}]\n{stockTransaction[1].amount}\n{stockTransaction[0]}\n'
+
+            # Send text message with Twilio (limited to 1600 characters per text message)
+            print(transactionStrList)
+
+        # Sleep for 15 minutes before starting loop over
+        count += 1
+        time.sleep(900)
 
 if __name__ == '__main__':
     main()
